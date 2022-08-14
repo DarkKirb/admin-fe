@@ -67,7 +67,6 @@ export default {
     reports: 'Reports',
     invites: 'Invites',
     statuses: 'Statuses',
-    chats: 'Chats',
     settings: 'Settings',
     moderationLog: 'Moderation Log',
     relays: 'Relays',
@@ -302,11 +301,6 @@ export default {
     unlisted: 'Unlisted',
     openStatusInInstance: 'Open status in instance'
   },
-  chats: {
-    chats: 'Chats',
-    loadMore: 'Load more',
-    chatHistory: 'Chat History'
-  },
   userProfile: {
     tags: 'Tags',
     moderator: 'Moderator',
@@ -317,7 +311,6 @@ export default {
     actorType: 'Actor Type',
     nickname: 'Nickname',
     recentStatuses: 'Recent Statuses',
-    chats: 'Chats',
     roles: 'Roles',
     active: 'Active',
     status: 'Status',
@@ -325,7 +318,6 @@ export default {
     deactivated: 'Deactivated',
     pending: 'Pending',
     noStatuses: 'No statuses to show',
-    noChats: 'No chats to show',
     noMessages: 'No messages to show',
     openAccountInInstance: 'Open account in instance',
     securitySettings: {

@@ -110,40 +110,6 @@
             :visible="securitySettingsModalVisible"
             @close="securitySettingsModalVisible = false" />
         </el-card>
-        <el-card class="user-chats-card">
-          <h2 class="chats">{{ $t('userProfile.chats') }}</h2>
-          <div class="el-table el-table--fit el-table--enable-row-hover el-table--enable-row-transition el-table--medium">
-            <table class="user-chats-table">
-              <tbody v-if="!chatsLoading" class="chats">
-                <tr v-if="chats.length === 0" class="no-statuses">
-                  {{ $t('userProfile.noChats') }}
-                </tr>
-                <tr v-for="chat in chats" :key="chat.id" class="el-table__row chat-item">
-                  <td>
-                    <router-link
-                      v-if="propertyExists(chat, 'id')"
-                      :to="{ name: 'ChatsShow', params: { id: chat.id }}"
-                      class="router-link">
-                      <div class="chat-card-header">
-                        <img v-if="propertyExists(chat.receiver, 'avatar')" :src="chat.receiver.avatar" class="chat-avatar-img">
-                        <span v-if="propertyExists(chat.receiver, 'username')" class="chat-account-name">{{ chat.receiver.username }}</span>
-                        <span v-else>
-                          <span v-if="propertyExists(chat.receiver, 'username')" class="chat-account-name">
-                            {{ chat.receiver.username }}
-                          </span>
-                          <span v-else class="chat-account-name deactivated">({{ $t('users.invalidNickname') }})</span>
-                        </span>
-                      </div>
-                      <div class="chat-card-preview">
-                        <span v-if="propertyExists(chat, 'last_message')" class="chat-preview">{{ chat.last_message.content }}</span>
-                      </div>
-                    </router-link>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </el-card>
       </div>
       <div class="recent-statuses-container">
         <h2 class="recent-statuses">{{ $t('userProfile.recentStatuses') }}</h2>
@@ -196,12 +162,6 @@ export default {
     },
     statusesLoading() {
       return this.$store.state.userProfile.statusesLoading
-    },
-    chats() {
-      return this.$store.state.userProfile.chats
-    },
-    chatsLoading() {
-      return this.$store.state.userProfile.chatsLoading
     },
     user() {
       return this.$store.state.userProfile.user
@@ -369,20 +329,12 @@ table {
   width: auto;
   margin-bottom: 20px;
 }
-.user-chats-card {
-  width: auto;
-  height: fit-content;
-  margin-bottom: 20px;
-}
 .user-profile-container {
   display: flex;
 }
 .user-profile-table {
   margin: 0;
   width: inherit;
-}
-.user-chats-table {
-  width: 100%;
 }
 .user-profile-tag {
   margin: 0 4px 4px 0;
@@ -391,27 +343,6 @@ table {
   color: #878d99;
   font-weight: bold;
   margin: 5px 0;
-}
-.chat-card-header {
-  display: flex;
-  align-items: center;
-}
-.chat-avatar-img {
-  display: inline-block;
-  width: 15px;
-  height: 15px;
-  margin-right: 5px;
-}
-.chat-account-name {
-  display: inline-block;
-  margin: 0;
-  font-size: 15px;
-  font-weight: 500;
-}
-.chat-card-preview {
-  color: gray;
-  font-style: italic;
-  margin: 5px 0 0 20px;
 }
 
 @media only screen and (max-width:480px) {
@@ -451,7 +382,7 @@ table {
       margin: 0 15px 15px 10px;
     }
   }
-  .user-profile-card, .user-chats-card {
+  .user-profile-card {
     margin: 0 10px 20px;
     width: 95%;
     td {
