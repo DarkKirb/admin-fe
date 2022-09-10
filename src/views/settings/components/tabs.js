@@ -26,7 +26,7 @@ export const tabs = description => {
     },
     'instance': {
       label: 'settings.instance',
-      settings: [':admin_token', ':instance', ':instance_panel', ':instances_favicons', ':welcome', ':manifest', 'Pleroma.User', 'Pleroma.ScheduledActivity', ':uri_schemes', ':feed', ':streamer', ':restrict_unauthenticated']
+      settings: [':admin_token', ':instance', ':instance_panel', ':instances_favicons', ':welcome', ':manifest', 'Pleroma.User', 'Pleroma.ScheduledActivity', ':uri_schemes', ':feed', ':streamer', ':restrict_unauthenticated', ':translator', ':deepl', ':libre_translate']
     },
     'job-queue': {
       label: 'settings.jobQueue',
@@ -67,6 +67,10 @@ export const tabs = description => {
     'upload': {
       label: 'settings.upload',
       settings: ['Pleroma.Upload.Filter.AnonymizeFilename', 'Pleroma.Upload.Filter.Mogrify', 'Pleroma.Uploaders.S3', 'Pleroma.Uploaders.Local', 'Pleroma.Upload', ':s3']
+    },
+    'search': {
+      label: 'settings.search',
+      settings: ['Pleroma.Search', 'Pleroma.Search.Meilisearch', 'Pleroma.Search.Elasticsearch.Cluster']
     },
     'other': {
       label: 'settings.other',

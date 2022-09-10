@@ -44,6 +44,17 @@
     <el-form :model="streamerData" :label-position="labelPosition" :label-width="labelWidth">
       <setting :setting-group="streamer" :data="streamerData"/>
     </el-form>
+    <el-divider v-if="translator" class="divider thick-line"/>
+    <el-form :model="translatorData" :label-position="labelPosition" :label-width="labelWidth">
+      <setting :setting-group="translator" :data="translatorData"/>
+    </el-form>
+    <el-form v-if="usesDeepL" :model="deeplData" :label-position="labelPosition" :label-width="labelWidth">
+      <setting :setting-group="deepl" :data="deeplData"/>
+    </el-form>
+    <el-form v-if="usesLibreTranslate" :model="libretranslateData" :label-position="labelPosition" :label-width="labelWidth">
+      <setting :setting-group="libre_translate" :data="libretranslateData"/>
+    </el-form>
+
     <div class="submit-button-container">
       <el-button class="submit-button" type="primary" @click="onSubmit">{{ $t('settings.submit') }}</el-button>
     </div>
@@ -172,6 +183,30 @@ export default {
     },
     welcomeData() {
       return _.get(this.settings.settings, [':pleroma', ':welcome']) || {}
+    },
+    translator() {
+      return this.$store.state.settings.description.find(setting => setting.key === ':translator')
+    },
+    translatorData() {
+      return _.get(this.settings.settings, [':pleroma', ':translator']) || {}
+    },
+    usesDeepL() {
+      return (_.get(this.settings.settings, [':pleroma', ':translator', ':module']) || '').toLowerCase().endsWith('deepl')
+    },
+    usesLibreTranslate() {
+      return (_.get(this.settings.settings, [':pleroma', ':translator', ':module']) || '').toLowerCase().endsWith('libretranslate')
+    },
+    deepl() {
+      return this.$store.state.settings.description.find(setting => setting.key === ':deepl')
+    },
+    deeplData() {
+      return _.get(this.settings.settings, [':pleroma', ':deepl']) || {}
+    },
+    libre_translate() {
+      return this.$store.state.settings.description.find(setting => setting.key === ':libre_translate')
+    },
+    libretranslateData() {
+      return _.get(this.settings.settings, [':pleroma', ':libre_translate']) || {}
     }
   },
   async mounted() {

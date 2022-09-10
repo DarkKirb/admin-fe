@@ -274,20 +274,6 @@ describe('Parse tuples', () => {
     expect(_.isEqual(expectedSenderString, parseTuples(senderString, ':welcome'))).toBeTruthy()
   })
 
-  it('parses proxy_url', () => {
-    const proxyUrlNull = [{ tuple: [':proxy_url', null] }]
-    const proxyUrlTuple = [{ tuple: [':proxy_url', { tuple: [':socks5', ':localhost', 3090] }]}]
-    const proxyUrlString = [{ tuple: [':proxy_url', 'localhost:9020'] }]
-
-    const expectedProxyUrlNull = { ':proxy_url': { socks5: false, host: null, port: null }}
-    const expectedProxyUrlTuple = { ':proxy_url': { socks5: true, host: ':localhost', port: 3090 }}
-    const expectedProxyUrlString = { ':proxy_url': { socks5: false, host: 'localhost', port: '9020' }}
-
-    expect(_.isEqual(expectedProxyUrlNull, parseTuples(proxyUrlNull, ':http'))).toBeTruthy()
-    expect(_.isEqual(expectedProxyUrlTuple, parseTuples(proxyUrlTuple, ':http'))).toBeTruthy()
-    expect(_.isEqual(expectedProxyUrlString, parseTuples(proxyUrlString, ':http'))).toBeTruthy()
-  })
-
   it('parses args setting in Pleroma.Upload.Filter.Mogrify', () => {
     const tuples = [{ tuple: [':args', ['strip', '{ "implode", "1" }']]}]
     const expectedResult = { ':args': ['strip', '{ "implode", "1" }'] }

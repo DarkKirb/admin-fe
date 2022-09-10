@@ -1,7 +1,13 @@
 <template>
   <div v-if="!loading" :class="isSidebarOpen" class="form-container">
-    <el-form v-if="!loading" :model="gopherData" :label-position="labelPosition" :label-width="labelWidth">
-      <setting :setting-group="gopher" :data="gopherData"/>
+    <el-form :model="searchData" :label-position="labelPosition" :label-width="labelWidth">
+      <setting :setting-group="search" :data="searchData"/>
+    </el-form>
+    <el-form v-if="isMeilisearch" :model="meilisearchData" :label-position="labelPosition" :label-width="labelWidth">
+      <setting :setting-group="meilisearch" :data="meilisearchData"/>
+    </el-form>
+    <el-form v-if="isElasticsearch" :model="elasticsearchData" :label-position="labelPosition" :label-width="labelWidth">
+      <setting :setting-group="elasticsearch" :data="elasticsearchData"/>
     </el-form>
     <div class="submit-button-container">
       <el-button class="submit-button" type="primary" @click="onSubmit">{{ $t('settings.submit') }}</el-button>
@@ -16,17 +22,35 @@ import Setting from './Setting'
 import _ from 'lodash'
 
 export default {
-  name: 'Gopher',
+  name: 'Search',
   components: { Setting },
   computed: {
     ...mapGetters([
       'settings'
     ]),
-    gopher() {
-      return this.settings.description.find(setting => setting.key === ':gopher')
+    search() {
+      return this.settings.description.find(setting => setting.key === 'Pleroma.Search')
     },
-    gopherData() {
-      return _.get(this.settings.settings, [':pleroma', ':gopher']) || {}
+    searchData() {
+      return _.get(this.settings.settings, [':pleroma', 'Pleroma.Search']) || {}
+    },
+    meilisearch() {
+      return this.settings.description.find(setting => setting.key === 'Pleroma.Search.Meilisearch')
+    },
+    isMeilisearch() {
+      return (_.get(this.settings.settings, [':pleroma', 'Pleroma.Search', ':module']) || '').toLowerCase().endsWith('meilisearch')
+    },
+    meilisearchData() {
+      return _.get(this.settings.settings, [':pleroma', 'Pleroma.Search.Meilisearch']) || {}
+    },
+    elasticsearch() {
+      return this.settings.description.find(setting => setting.key === 'Pleroma.Search.Elasticsearch.Cluster')
+    },
+    isElasticsearch() {
+      return (_.get(this.settings.settings, [':pleroma', 'Pleroma.Search', ':module']) || '').toLowerCase().endsWith('elasticsearch')
+    },
+    elasticsearchData() {
+      return _.get(this.settings.settings, [':pleroma', 'Pleroma.Search.Elasticsearch.Cluster']) || {}
     },
     isMobile() {
       return this.$store.state.app.device === 'mobile'

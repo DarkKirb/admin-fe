@@ -107,7 +107,7 @@ export const parseTuples = (tuples, key) => {
       }, [])
     } else if (item.tuple[0] === ':prune') {
       accum[item.tuple[0]] = item.tuple[1] === ':disabled' ? [item.tuple[1]] : item.tuple[1].tuple
-    } else if (item.tuple[0] === ':proxy_url' || item.tuple[0] === ':sender') {
+    } else if (item.tuple[0] === ':sender') {
       accum[item.tuple[0]] = parseStringOrTupleValue(item.tuple[0], item.tuple[1])
     } else if (item.tuple[0] === ':args') {
       accum[item.tuple[0]] = parseNonTuples(item.tuple[0], item.tuple[1])

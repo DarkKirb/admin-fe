@@ -4,7 +4,6 @@ export const tabs = [
   { label: 'Captcha', path: 'captcha', tab: ':captcha' },
   { label: 'Emoji', path: 'emoji', tab: ':emoji' },
   { label: 'Frontend', path: 'frontend', tab: ':frontend' },
-  { label: 'Gopher', path: 'gopher', tab: ':gopher' },
   { label: 'HTTP', path: 'http', tab: ':http' },
   { label: 'Instance', path: 'instance', tab: ':instance' },
   { label: 'Job queue', path: 'job-queue', tab: ':job_queue' },
@@ -17,5 +16,6 @@ export const tabs = [
   { label: 'Rate limiters', path: 'rate-limiters', tab: ':rate_limiters' },
   { label: 'Web push encryption', path: 'web-push', tab: ':web_push' },
   { label: 'Upload', path: 'upload', tab: ':upload' },
+  { label: 'Search', path: 'search', tab: ':search' },
   { label: 'Other', path: 'other', tab: ':other' }
 ]

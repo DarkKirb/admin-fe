@@ -9,7 +9,7 @@
         <div class="docs-search-container">
           <el-link
             :underline="false"
-            href="https://docs-develop.pleroma.social/backend/administration/CLI_tasks/config/"
+            href="https://docs.akkoma.dev/stable/administration/CLI_tasks/config/"
             target="_blank">
             <el-button class="settings-docs-button">
               <span>
@@ -71,7 +71,6 @@ import {
   Emoji,
   Esshd,
   Frontend,
-  Gopher,
   Http,
   Instance,
   JobQueue,
@@ -84,6 +83,7 @@ import {
   Other,
   RateLimiters,
   Upload,
+  Search,
   WebPush
 } from './components'
 import RebootButton from '@/components/RebootButton'
@@ -96,7 +96,6 @@ export default {
     Emoji,
     Esshd,
     Frontend,
-    Gopher,
     Http,
     Instance,
     JobQueue,
@@ -110,6 +109,7 @@ export default {
     RateLimiters,
     RebootButton,
     Upload,
+    Search,
     WebPush
   },
   data() {
