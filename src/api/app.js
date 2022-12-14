@@ -5,7 +5,7 @@ import { baseName } from './utils'
 export async function needReboot(authHost, token) {
   return await request({
     baseURL: baseName(authHost),
-    url: `/api/pleroma/admin/need_reboot`,
+    url: `/api/v1/pleroma/admin/need_reboot`,
     method: 'get',
     headers: authHeaders(token)
   })
@@ -14,7 +14,7 @@ export async function needReboot(authHost, token) {
 export async function restartApp(authHost, token) {
   return await request({
     baseURL: baseName(authHost),
-    url: `/api/pleroma/admin/restart`,
+    url: `/api/v1/pleroma/admin/restart`,
     method: 'get',
     headers: authHeaders(token)
   })

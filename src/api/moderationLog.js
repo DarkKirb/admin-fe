@@ -11,7 +11,7 @@ export async function fetchLog(authHost, token, params, page = 1) {
 
   return await request({
     baseURL: baseName(authHost),
-    url: `/api/pleroma/admin/moderation_log?${normalizedParams}`,
+    url: `/api/v1/pleroma/admin/moderation_log?${normalizedParams}`,
     method: 'get',
     headers: authHeaders(token)
   })
@@ -20,7 +20,7 @@ export async function fetchLog(authHost, token, params, page = 1) {
 export async function fetchAdmins(authHost, token) {
   return await request({
     baseURL: baseName(authHost),
-    url: `/api/pleroma/admin/users?filters=is_admin`,
+    url: `/api/v1/pleroma/admin/users?filters=is_admin`,
     method: 'get',
     headers: authHeaders(token)
   })
@@ -29,7 +29,7 @@ export async function fetchAdmins(authHost, token) {
 export async function fetchModerators(authHost, token) {
   return await request({
     baseURL: baseName(authHost),
-    url: `/api/pleroma/admin/users?filters=is_moderator`,
+    url: `/api/v1/pleroma/admin/users?filters=is_moderator`,
     method: 'get',
     headers: authHeaders(token)
   })
