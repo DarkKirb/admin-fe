@@ -5,7 +5,7 @@ import { baseName } from './utils'
 export async function listBannedUrls(page, pageSize, authHost, token) {
   return await request({
     baseURL: baseName(authHost),
-    url: `/api/pleroma/admin/media_proxy_caches?page=${page}&page_size=${pageSize}`,
+    url: `/api/v1/pleroma/admin/media_proxy_caches?page=${page}&page_size=${pageSize}`,
     method: 'get',
     headers: authHeaders(token)
   })
@@ -14,7 +14,7 @@ export async function listBannedUrls(page, pageSize, authHost, token) {
 export async function purgeUrls(urls, ban, authHost, token) {
   return await request({
     baseURL: baseName(authHost),
-    url: `/api/pleroma/admin/media_proxy_caches/purge`,
+    url: `/api/v1/pleroma/admin/media_proxy_caches/purge`,
     method: 'post',
     headers: authHeaders(token),
     data: { urls, ban }
@@ -24,7 +24,7 @@ export async function purgeUrls(urls, ban, authHost, token) {
 export async function removeBannedUrls(urls, authHost, token) {
   return await request({
     baseURL: baseName(authHost),
-    url: `/api/pleroma/admin/media_proxy_caches/delete`,
+    url: `/api/v1/pleroma/admin/media_proxy_caches/delete`,
     method: 'post',
     headers: authHeaders(token),
     data: { urls }
@@ -34,7 +34,7 @@ export async function removeBannedUrls(urls, authHost, token) {
 export async function searchBannedUrls(query, page, pageSize, authHost, token) {
   return await request({
     baseURL: baseName(authHost),
-    url: `/api/pleroma/admin/media_proxy_caches?query=${query}&page=${page}&page_size=${pageSize}`,
+    url: `/api/v1/pleroma/admin/media_proxy_caches?query=${query}&page=${page}&page_size=${pageSize}`,
     method: 'get',
     headers: authHeaders(token)
   })

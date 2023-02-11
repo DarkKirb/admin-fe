@@ -30,7 +30,7 @@
       <div class="download-pack-button-container">
         <el-link
           v-if="pack.pack['can-download']"
-          :href="`//${host}//api/pleroma/emoji/packs/archive?name=${name}`"
+          :href="`//${host}//api/v1/pleroma/emoji/packs/archive?name=${name}`"
           :underline="false"
           type="primary"
           target="_blank">

@@ -5,7 +5,7 @@ import { baseName } from './utils'
 export async function fetchRelays(authHost, token) {
   return await request({
     baseURL: baseName(authHost),
-    url: '/api/pleroma/admin/relay',
+    url: '/api/v1/pleroma/admin/relay',
     method: 'get',
     headers: authHeaders(token)
   })
@@ -14,7 +14,7 @@ export async function fetchRelays(authHost, token) {
 export async function addRelay(relay_url, authHost, token) {
   return await request({
     baseURL: baseName(authHost),
-    url: '/api/pleroma/admin/relay',
+    url: '/api/v1/pleroma/admin/relay',
     method: 'post',
     headers: authHeaders(token),
     data: { relay_url }
@@ -24,7 +24,7 @@ export async function addRelay(relay_url, authHost, token) {
 export async function deleteRelay(relay_url, authHost, token) {
   return await request({
     baseURL: baseName(authHost),
-    url: '/api/pleroma/admin/relay',
+    url: '/api/v1/pleroma/admin/relay',
     method: 'delete',
     headers: authHeaders(token),
     data: { relay_url }

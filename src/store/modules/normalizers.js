@@ -77,6 +77,7 @@ export const parseTuples = (tuples, key) => {
       (item.tuple[0] === ':groups' ||
       item.tuple[0] === ':replace' ||
       item.tuple[0] === ':retries' ||
+      item.tuple[0] === ':timeout' ||
       (item.tuple[0] === ':headers' && key === 'Pleroma.Web.MediaProxy.Invalidation.Http') ||
       item.tuple[0] === ':crontab' ||
       item.tuple[0] === ':transparency_exclusions' ||

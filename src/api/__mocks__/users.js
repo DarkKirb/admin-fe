@@ -36,7 +36,7 @@ export async function fetchUserStatuses(id, authHost, godmode, token) {
 }
 
 export async function getPasswordResetToken(nickname, authHost, token) {
-  return Promise.resolve({ data: { token: 'g05lxnBJQnL', link: 'http://url/api/pleroma/password_reset/g05lxnBJQnL' }})
+  return Promise.resolve({ data: { token: 'g05lxnBJQnL', link: 'http://url/api/v1/pleroma/password_reset/g05lxnBJQnL' }})
 }
 
 export async function searchUsers(query, filters, actorTypeFilters, authHost, token, page = 1) {

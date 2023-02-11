@@ -276,7 +276,7 @@ describe('Users actions', () => {
 
     expect(wrapper.vm.resetPasswordDialogOpen).toBe(true)
     expect(store.state.users.passwordResetToken.token).toBe('g05lxnBJQnL')
-    expect(store.state.users.passwordResetToken.link).toBe('http://url/api/pleroma/password_reset/g05lxnBJQnL')
+    expect(store.state.users.passwordResetToken.link).toBe('http://url/api/v1/pleroma/password_reset/g05lxnBJQnL')
 
     closeDialogButton.trigger('click')
     await flushPromises()
