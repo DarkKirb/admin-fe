@@ -120,7 +120,8 @@ const settings = {
         const searchObject = formSearchObject(data)
         commit('SET_SEARCH', searchObject)
         commit('SET_TABS', tabs)
-      } catch (_e) {
+      } catch (e) {
+        console.error(e)
         commit('TOGGLE_TABS', true)
         commit('SET_LOADING', false)
         return

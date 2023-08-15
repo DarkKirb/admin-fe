@@ -37,7 +37,7 @@ const getValueWithoutKey = (key, [type, value]) => {
       updatedArray[index] = { 'tuple': ['ExSyslogger', ':ex_syslogger'] }
     }
     return updatedArray
-  } else if (key === ':types') {
+  } else if ([':types', ':extensions'].includes(key)) {
     return Object.keys(value).reduce((acc, key) => { return { ...acc, [key]: value[key][1] } }, {})
   }
   return value
@@ -186,7 +186,7 @@ export const processNested = (valueForState, valueForUpdatedSettings, group, par
       ...{ [key]: [type, valueForUpdatedSettings] }}
     : { [key]: [type, valueForUpdatedSettings] }
 
-  if (group === ':mime' && parents[0].key === ':types') {
+  if (group === ':mime' && [':types', ':extensions'].includes(parents[0].key)) {
     updatedValueForState = settings[group][parents[0].key]
       ? { ...settings[group][parents[0].key].value, ...updatedValueForState }
       : updatedValueForState
@@ -229,6 +229,7 @@ export const valueHasTuples = (key, value) => {
   const valueIsArrayOfNonObjects = Array.isArray(value) && value.length > 0 && value.every(el => typeof el !== 'object')
   return key === ':meta' ||
     key === ':types' ||
+    key === ':extensions' ||
     key === ':backends' ||
     key === ':compiled_template_engines' ||
     key === ':compiled_format_encoders' ||
