@@ -10848,14 +10848,6 @@
       };
     }
     {
-      name = "semver___semver_5.5.0.tgz";
-      path = fetchurl {
-        name = "semver___semver_5.5.0.tgz";
-        url = "https://registry.yarnpkg.com/semver/-/semver-5.5.0.tgz";
-        sha512 = "4SJ3dm0WAwWy/NVeioZh5AntkdJoWKxHxcmyP622fOkgHa4z3R0TdBJICINyaSDE6uNwVc8gZr+ZinwZAH4xIA==";
-      };
-    }
-    {
       name = "semver___semver_7.0.0.tgz";
       path = fetchurl {
         name = "semver___semver_7.0.0.tgz";
@@ -10864,19 +10856,19 @@
       };
     }
     {
+      name = "semver___semver_7.5.4.tgz";
+      path = fetchurl {
+        name = "semver___semver_7.5.4.tgz";
+        url = "https://registry.yarnpkg.com/semver/-/semver-7.5.4.tgz";
+        sha512 = "1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==";
+      };
+    }
+    {
       name = "semver___semver_6.3.0.tgz";
       path = fetchurl {
         name = "semver___semver_6.3.0.tgz";
         url = "https://registry.yarnpkg.com/semver/-/semver-6.3.0.tgz";
         sha512 = "b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==";
-      };
-    }
-    {
-      name = "semver___semver_7.3.7.tgz";
-      path = fetchurl {
-        name = "semver___semver_7.3.7.tgz";
-        url = "https://registry.yarnpkg.com/semver/-/semver-7.3.7.tgz";
-        sha512 = "QlYTucUYOews+WeEujDoEGziz4K6c47V/Bd+LjSSYcA94p+DmINdf7ncaUinThfvZyu13lN9OY1XDxt8C0Tw0g==";
       };
     }
     {
