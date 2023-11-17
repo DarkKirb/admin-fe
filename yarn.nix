@@ -5816,6 +5816,14 @@
       };
     }
     {
+      name = "hash_sum___hash_sum_2.0.0.tgz";
+      path = fetchurl {
+        name = "hash_sum___hash_sum_2.0.0.tgz";
+        url = "https://registry.yarnpkg.com/hash-sum/-/hash-sum-2.0.0.tgz";
+        sha512 = "WdZTbAByD+pHfl/g9QSsBIIwy8IT+EsPiKDs0KNX+zSHhdDLFKdZu0BQHljvO+0QI/BasbMSUa8wYNCZTvhslg==";
+      };
+    }
+    {
       name = "hash_sum___hash_sum_1.0.2.tgz";
       path = fetchurl {
         name = "hash_sum___hash_sum_1.0.2.tgz";
