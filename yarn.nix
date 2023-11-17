@@ -2536,11 +2536,11 @@
       };
     }
     {
-      name = "browserify_sign___browserify_sign_4.2.1.tgz";
+      name = "browserify_sign___browserify_sign_4.2.2.tgz";
       path = fetchurl {
-        name = "browserify_sign___browserify_sign_4.2.1.tgz";
-        url = "https://registry.yarnpkg.com/browserify-sign/-/browserify-sign-4.2.1.tgz";
-        sha512 = "/vrA5fguVAKKAVTNJjgSm1tRQDHUU6DbwO9IROu/0WAzC8PKhucDSh18J0RMvVeHAn5puMd+QHC2erPRNf8lmg==";
+        name = "browserify_sign___browserify_sign_4.2.2.tgz";
+        url = "https://registry.yarnpkg.com/browserify-sign/-/browserify-sign-4.2.2.tgz";
+        sha512 = "1rudGyeYY42Dk6texmv7c4VcQ0EsvVbLwZkA+AQB7SxvXxmcD93jcHie8bzecJ+ChDlmAm2Qyu0+Ccg5uhZXCg==";
       };
     }
     {
@@ -10221,6 +10221,14 @@
         name = "readable_stream___readable_stream_3.6.0.tgz";
         url = "https://registry.yarnpkg.com/readable-stream/-/readable-stream-3.6.0.tgz";
         sha512 = "BViHy7LKeTz4oNnkcLJ+lVSL6vpiFeX6/d3oSH8zCW7UxP2onchk+vTGB143xuFjHS3deTgkKoXXymXqymiIdA==";
+      };
+    }
+    {
+      name = "readable_stream___readable_stream_3.6.2.tgz";
+      path = fetchurl {
+        name = "readable_stream___readable_stream_3.6.2.tgz";
+        url = "https://registry.yarnpkg.com/readable-stream/-/readable-stream-3.6.2.tgz";
+        sha512 = "9u/sniCrY3D5WdsERHzHE4G2YCXqoG5FTHUiCC4SIbr6XcLZBY05ya9EKjYek9O5xOAwjGq+1JdGBAS7Q9ScoA==";
       };
     }
     {
