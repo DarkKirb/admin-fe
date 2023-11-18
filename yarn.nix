@@ -3216,14 +3216,6 @@
       };
     }
     {
-      name = "commander___commander_2.13.0.tgz";
-      path = fetchurl {
-        name = "commander___commander_2.13.0.tgz";
-        url = "https://registry.yarnpkg.com/commander/-/commander-2.13.0.tgz";
-        sha512 = "MVuS359B+YzaWqjCL/c+22gfryv+mCBPHAv3zyVI2GN8EY6IRP8VwtasXn8jyyhvvq84R4ImN1OKRtcbIasjYA==";
-      };
-    }
-    {
       name = "commander___commander_2.19.0.tgz";
       path = fetchurl {
         name = "commander___commander_2.19.0.tgz";
@@ -12224,14 +12216,6 @@
       };
     }
     {
-      name = "uglify_es___uglify_es_3.3.9.tgz";
-      path = fetchurl {
-        name = "uglify_es___uglify_es_3.3.9.tgz";
-        url = "https://registry.yarnpkg.com/uglify-es/-/uglify-es-3.3.9.tgz";
-        sha512 = "r+MU0rfv4L/0eeW3xZrd16t4NZfK8Ld4SWVglYBb7ez5uXFWHuVRs6xCTrf1yirs9a4j4Y27nn7SRfO6v67XsQ==";
-      };
-    }
-    {
       name = "uglify_js___uglify_js_3.4.10.tgz";
       path = fetchurl {
         name = "uglify_js___uglify_js_3.4.10.tgz";
@@ -12240,11 +12224,19 @@
       };
     }
     {
-      name = "uglifyjs_webpack_plugin___uglifyjs_webpack_plugin_1.2.7.tgz";
+      name = "uglify_js___uglify_js_3.17.4.tgz";
       path = fetchurl {
-        name = "uglifyjs_webpack_plugin___uglifyjs_webpack_plugin_1.2.7.tgz";
-        url = "https://registry.yarnpkg.com/uglifyjs-webpack-plugin/-/uglifyjs-webpack-plugin-1.2.7.tgz";
-        sha512 = "1VicfKhCYHLS8m1DCApqBhoulnASsEoJ/BvpUpP4zoNAPpKzdH+ghk0olGJMmwX2/jprK2j3hAHdUbczBSy2FA==";
+        name = "uglify_js___uglify_js_3.17.4.tgz";
+        url = "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.17.4.tgz";
+        sha512 = "T9q82TJI9e/C1TAxYvfb16xO120tMVFZrGA3f9/P4424DNu6ypK103y0GPFVa17yotwSyZW5iYXgjYHkGrJW/g==";
+      };
+    }
+    {
+      name = "uglifyjs_webpack_plugin___uglifyjs_webpack_plugin_2.2.0.tgz";
+      path = fetchurl {
+        name = "uglifyjs_webpack_plugin___uglifyjs_webpack_plugin_2.2.0.tgz";
+        url = "https://registry.yarnpkg.com/uglifyjs-webpack-plugin/-/uglifyjs-webpack-plugin-2.2.0.tgz";
+        sha512 = "mHSkufBmBuJ+KHQhv5H0MXijtsoA1lynJt1lXOaotja8/I0pR4L9oGaPIZw+bQBOFittXZg9OC1sXSGO9D9ZYg==";
       };
     }
     {
