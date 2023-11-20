@@ -3488,11 +3488,11 @@
       };
     }
     {
-      name = "cross_env___cross_env_5.2.0.tgz";
+      name = "cross_env___cross_env_7.0.3.tgz";
       path = fetchurl {
-        name = "cross_env___cross_env_5.2.0.tgz";
-        url = "https://registry.yarnpkg.com/cross-env/-/cross-env-5.2.0.tgz";
-        sha512 = "jtdNFfFW1hB7sMhr/H6rW1Z45LFqyI431m3qU6bFXcQ3Eh7LtBuG3h74o7ohHZ3crrRkkqHlo4jYHFPcjroANg==";
+        name = "cross_env___cross_env_7.0.3.tgz";
+        url = "https://registry.yarnpkg.com/cross-env/-/cross-env-7.0.3.tgz";
+        sha512 = "+/HKd6EgcQCJGh2PSjZuUitQBQynKor4wrFbRg4DtAgS1aWO+gU52xpH7M9ScGgXSYmAVS9bIJ8EzuaGw0oNAw==";
       };
     }
     {
