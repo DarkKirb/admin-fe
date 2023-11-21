@@ -12784,11 +12784,11 @@
       };
     }
     {
-      name = "vuex___vuex_3.0.1.tgz";
+      name = "vuex___vuex_3.6.2.tgz";
       path = fetchurl {
-        name = "vuex___vuex_3.0.1.tgz";
-        url = "https://registry.yarnpkg.com/vuex/-/vuex-3.0.1.tgz";
-        sha512 = "wLoqz0B7DSZtgbWL1ShIBBCjv22GV5U+vcBFox658g6V0s4wZV9P4YjCNyoHSyIBpj1f29JBoNQIqD82cR4O3w==";
+        name = "vuex___vuex_3.6.2.tgz";
+        url = "https://registry.yarnpkg.com/vuex/-/vuex-3.6.2.tgz";
+        sha512 = "ETW44IqCgBpVomy520DT5jf8n0zoCac+sxWnn+hMe/CzaSejb/eVw2YToiXYX+Ex/AuHHia28vWTq4goAexFbw==";
       };
     }
     {
