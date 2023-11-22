@@ -3080,14 +3080,6 @@
       };
     }
     {
-      name = "cacache___cacache_11.3.3.tgz";
-      path = fetchurl {
-        name = "cacache___cacache_11.3.3.tgz";
-        url = "https://registry.yarnpkg.com/cacache/-/cacache-11.3.3.tgz";
-        sha512 = "p8WcneCytvzPxhDvYp31PD039vi77I12W+/KfR9S8AZbaiARFBCpsPJS+9uhWfeBfeAtW7o/4vt3MUqLkbY6nA==";
-      };
-    }
-    {
       name = "cacache___cacache_12.0.4.tgz";
       path = fetchurl {
         name = "cacache___cacache_12.0.4.tgz";
@@ -3728,11 +3720,11 @@
       };
     }
     {
-      name = "compression_webpack_plugin___compression_webpack_plugin_2.0.0.tgz";
+      name = "compression_webpack_plugin___compression_webpack_plugin_6.1.1.tgz";
       path = fetchurl {
-        name = "compression_webpack_plugin___compression_webpack_plugin_2.0.0.tgz";
-        url = "https://registry.yarnpkg.com/compression-webpack-plugin/-/compression-webpack-plugin-2.0.0.tgz";
-        sha512 = "bDgd7oTUZC8EkRx8j0sjyCfeiO+e5sFcfgaFcjVhfQf5lLya7oY2BczxcJ7IUuVjz5m6fy8IECFmVFew3xLk8Q==";
+        name = "compression_webpack_plugin___compression_webpack_plugin_6.1.1.tgz";
+        url = "https://registry.yarnpkg.com/compression-webpack-plugin/-/compression-webpack-plugin-6.1.1.tgz";
+        sha512 = "BEHft9M6lwOqVIQFMS/YJGmeCYXVOakC5KzQk05TFpMBlODByh1qNsZCWjUBxCQhUP9x0WfGidxTbGkjbWO/TQ==";
       };
     }
     {
@@ -11040,6 +11032,14 @@
       };
     }
     {
+      name = "schema_utils___schema_utils_3.3.0.tgz";
+      path = fetchurl {
+        name = "schema_utils___schema_utils_3.3.0.tgz";
+        url = "https://registry.yarnpkg.com/schema-utils/-/schema-utils-3.3.0.tgz";
+        sha512 = "pN/yOAvcC+5rQ5nERGuwrjLlYvLTbCibnZ1I7B1LaiAz9BRBlE9GMgE/eqV30P7aJQUf7Ddimy/RsbYO/GrVGg==";
+      };
+    }
+    {
       name = "schema_utils___schema_utils_4.2.0.tgz";
       path = fetchurl {
         name = "schema_utils___schema_utils_4.2.0.tgz";
@@ -11181,6 +11181,14 @@
         name = "serialize_javascript___serialize_javascript_4.0.0.tgz";
         url = "https://registry.yarnpkg.com/serialize-javascript/-/serialize-javascript-4.0.0.tgz";
         sha512 = "GaNA54380uFefWghODBWEGisLZFj00nS5ACs6yHa9nLqlLpVLO8ChDGeKRjZnV4Nh4n0Qi7nhYZD/9fCPzEqkw==";
+      };
+    }
+    {
+      name = "serialize_javascript___serialize_javascript_5.0.1.tgz";
+      path = fetchurl {
+        name = "serialize_javascript___serialize_javascript_5.0.1.tgz";
+        url = "https://registry.yarnpkg.com/serialize-javascript/-/serialize-javascript-5.0.1.tgz";
+        sha512 = "SaaNal9imEO737H2c05Og0/8LUXG7EnsZyMa8MzkmuHoELfT6txuj0cMqRj6zfPKnmQ1yasR4PCJc8x+M4JSPA==";
       };
     }
     {
