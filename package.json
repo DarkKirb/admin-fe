@@ -55,7 +55,7 @@
     "lodash.debounce": "^4.0.8",
     "marked": "^0.8.0",
     "moment": "^2.24.0",
-    "normalize.css": "7.0.0",
+    "normalize.css": "8.0.1",
     "nprogress": "0.2.0",
     "numeral": "^2.0.6",
     "screenfull": "4.0.0",
