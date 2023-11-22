@@ -8880,11 +8880,11 @@
       };
     }
     {
-      name = "normalize.css___normalize.css_7.0.0.tgz";
+      name = "normalize.css___normalize.css_8.0.1.tgz";
       path = fetchurl {
-        name = "normalize.css___normalize.css_7.0.0.tgz";
-        url = "https://registry.yarnpkg.com/normalize.css/-/normalize.css-7.0.0.tgz";
-        sha512 = "LYaFZxj2Q1Q9e1VJ0f6laG46Rt5s9URhKyckNaA2vZnL/0gwQHWhM7ALQkp3WBQKM5sXRLQ5Ehrfkp+E/ZiCRg==";
+        name = "normalize.css___normalize.css_8.0.1.tgz";
+        url = "https://registry.yarnpkg.com/normalize.css/-/normalize.css-8.0.1.tgz";
+        sha512 = "qizSNPO93t1YUuUhP22btGOo3chcvDFqFaj2TRybP0DMxkHOCTYwp3n34fel4a31ORXy4m1Xq0Gyqpb5m33qIg==";
       };
     }
     {
