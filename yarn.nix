@@ -12736,14 +12736,6 @@
       };
     }
     {
-      name = "vue_style_loader___vue_style_loader_4.1.2.tgz";
-      path = fetchurl {
-        name = "vue_style_loader___vue_style_loader_4.1.2.tgz";
-        url = "https://registry.yarnpkg.com/vue-style-loader/-/vue-style-loader-4.1.2.tgz";
-        sha512 = "0ip8ge6Gzz/Bk0iHovU9XAUQaFt/G2B61bnWa2tCcqqdgfHs1lF9xXorFbE55Gmy92okFT+8bfmySuUOu13vxQ==";
-      };
-    }
-    {
       name = "vue_style_loader___vue_style_loader_4.1.3.tgz";
       path = fetchurl {
         name = "vue_style_loader___vue_style_loader_4.1.3.tgz";
