@@ -4400,11 +4400,11 @@
       };
     }
     {
-      name = "default_passive_events___default_passive_events_1.0.10.tgz";
+      name = "default_passive_events___default_passive_events_2.0.0.tgz";
       path = fetchurl {
-        name = "default_passive_events___default_passive_events_1.0.10.tgz";
-        url = "https://registry.yarnpkg.com/default-passive-events/-/default-passive-events-1.0.10.tgz";
-        sha512 = "3kQ+zei7/tzYz+Cqj0GQpi68DbgFOoU/H69V+pNHLxbTNy9ArBfCJCaZPziCtms2PIyGcTRZKK71iPvl0gXUgw==";
+        name = "default_passive_events___default_passive_events_2.0.0.tgz";
+        url = "https://registry.yarnpkg.com/default-passive-events/-/default-passive-events-2.0.0.tgz";
+        sha512 = "eMtt76GpDVngZQ3ocgvRcNCklUMwID1PaNbCNxfpDXuiOXttSh0HzBbda1HU9SIUsDc02vb7g9+3I5tlqe/qMQ==";
       };
     }
     {
