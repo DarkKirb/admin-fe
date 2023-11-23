@@ -8752,11 +8752,11 @@
       };
     }
     {
-      name = "node_notifier___node_notifier_5.2.1.tgz";
+      name = "node_notifier___node_notifier_10.0.1.tgz";
       path = fetchurl {
-        name = "node_notifier___node_notifier_5.2.1.tgz";
-        url = "https://registry.yarnpkg.com/node-notifier/-/node-notifier-5.2.1.tgz";
-        sha512 = "MIBs+AAd6dJ2SklbbE8RUDRlIVhU8MaNLh1A9SUZDUHPiZkWLFde6UNwG41yQHZEToHgJMXqyVZ9UcS/ReOVTg==";
+        name = "node_notifier___node_notifier_10.0.1.tgz";
+        url = "https://registry.yarnpkg.com/node-notifier/-/node-notifier-10.0.1.tgz";
+        sha512 = "YX7TSyDukOZ0g+gmzjB6abKu+hTGvO8+8+gIFDsRCU2t8fLV/P2unmt+LGFaIa4y64aX98Qksa97rgz4vMNeLQ==";
       };
     }
     {
