@@ -9672,11 +9672,11 @@
       };
     }
     {
-      name = "postcss_loader___postcss_loader_2.1.6.tgz";
+      name = "postcss_loader___postcss_loader_3.0.0.tgz";
       path = fetchurl {
-        name = "postcss_loader___postcss_loader_2.1.6.tgz";
-        url = "https://registry.yarnpkg.com/postcss-loader/-/postcss-loader-2.1.6.tgz";
-        sha512 = "hgiWSc13xVQAq25cVw80CH0l49ZKlAnU1hKPOdRrNj89bokRr/bZF2nT+hebPPF9c9xs8c3gw3Fr2nxtmXYnNg==";
+        name = "postcss_loader___postcss_loader_3.0.0.tgz";
+        url = "https://registry.yarnpkg.com/postcss-loader/-/postcss-loader-3.0.0.tgz";
+        sha512 = "cLWoDEY5OwHcAjDnkyRQzAXfs2jrKjXpO/HQFcc5b5u/r7aa471wdmChmwfnv7x2u840iat/wi0lQ5nbRgSkUA==";
       };
     }
     {
