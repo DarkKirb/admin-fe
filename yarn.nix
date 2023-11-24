@@ -8752,11 +8752,11 @@
       };
     }
     {
-      name = "node_notifier___node_notifier_5.2.1.tgz";
+      name = "node_notifier___node_notifier_10.0.1.tgz";
       path = fetchurl {
-        name = "node_notifier___node_notifier_5.2.1.tgz";
-        url = "https://registry.yarnpkg.com/node-notifier/-/node-notifier-5.2.1.tgz";
-        sha512 = "MIBs+AAd6dJ2SklbbE8RUDRlIVhU8MaNLh1A9SUZDUHPiZkWLFde6UNwG41yQHZEToHgJMXqyVZ9UcS/ReOVTg==";
+        name = "node_notifier___node_notifier_10.0.1.tgz";
+        url = "https://registry.yarnpkg.com/node-notifier/-/node-notifier-10.0.1.tgz";
+        sha512 = "YX7TSyDukOZ0g+gmzjB6abKu+hTGvO8+8+gIFDsRCU2t8fLV/P2unmt+LGFaIa4y64aX98Qksa97rgz4vMNeLQ==";
       };
     }
     {
@@ -9672,11 +9672,11 @@
       };
     }
     {
-      name = "postcss_loader___postcss_loader_2.1.6.tgz";
+      name = "postcss_loader___postcss_loader_3.0.0.tgz";
       path = fetchurl {
-        name = "postcss_loader___postcss_loader_2.1.6.tgz";
-        url = "https://registry.yarnpkg.com/postcss-loader/-/postcss-loader-2.1.6.tgz";
-        sha512 = "hgiWSc13xVQAq25cVw80CH0l49ZKlAnU1hKPOdRrNj89bokRr/bZF2nT+hebPPF9c9xs8c3gw3Fr2nxtmXYnNg==";
+        name = "postcss_loader___postcss_loader_3.0.0.tgz";
+        url = "https://registry.yarnpkg.com/postcss-loader/-/postcss-loader-3.0.0.tgz";
+        sha512 = "cLWoDEY5OwHcAjDnkyRQzAXfs2jrKjXpO/HQFcc5b5u/r7aa471wdmChmwfnv7x2u840iat/wi0lQ5nbRgSkUA==";
       };
     }
     {
@@ -11456,11 +11456,11 @@
       };
     }
     {
-      name = "sortablejs___sortablejs_1.7.0.tgz";
+      name = "sortablejs___sortablejs_1.15.0.tgz";
       path = fetchurl {
-        name = "sortablejs___sortablejs_1.7.0.tgz";
-        url = "https://registry.yarnpkg.com/sortablejs/-/sortablejs-1.7.0.tgz";
-        sha512 = "4z/P2iyY/BElEvKALqpng7wlgdP9pww+r7i7/uUXwX2pDHGLcKMsXsl2NDgZnFinrV4kOLHKLfx89LeCqSxHkQ==";
+        name = "sortablejs___sortablejs_1.15.0.tgz";
+        url = "https://registry.yarnpkg.com/sortablejs/-/sortablejs-1.15.0.tgz";
+        sha512 = "bv9qgVMjUMf89wAvM6AxVvS/4MX3sPeN0+agqShejLU5z5GX4C75ow1O2e5k4L6XItUyAK3gH6AxSbXrOM5e8w==";
       };
     }
     {
