@@ -4792,11 +4792,11 @@
       };
     }
     {
-      name = "driver.js___driver.js_0.8.1.tgz";
+      name = "driver.js___driver.js_1.3.1.tgz";
       path = fetchurl {
-        name = "driver.js___driver.js_0.8.1.tgz";
-        url = "https://registry.yarnpkg.com/driver.js/-/driver.js-0.8.1.tgz";
-        sha512 = "CQ5cG6QMPooZq5P6jNQtWVu1oselYSgbY3vQsDJtmC2STKvX4pbrd0aOxRFOpXptMReUIJOJhyBnP4Udt4c+4Q==";
+        name = "driver.js___driver.js_1.3.1.tgz";
+        url = "https://registry.yarnpkg.com/driver.js/-/driver.js-1.3.1.tgz";
+        sha512 = "MvUdXbqSgEsgS/H9KyWb5Rxy0aE6BhOVT4cssi2x2XjmXea6qQfgdx32XKVLLSqTaIw7q/uxU5Xl3NV7+cN6FQ==";
       };
     }
     {
