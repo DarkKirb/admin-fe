@@ -12120,11 +12120,11 @@
       };
     }
     {
-      name = "svg_sprite_loader___svg_sprite_loader_3.8.0.tgz";
+      name = "svg_sprite_loader___svg_sprite_loader_6.0.11.tgz";
       path = fetchurl {
-        name = "svg_sprite_loader___svg_sprite_loader_3.8.0.tgz";
-        url = "https://registry.yarnpkg.com/svg-sprite-loader/-/svg-sprite-loader-3.8.0.tgz";
-        sha512 = "7HkMH0//OLVwqY9T1ho3R5l9GR8/70GBB0KKFULcgvNs+tkln8TcdsuC1UA5536mjM6GBcEuK7CCUR7+xIV9vg==";
+        name = "svg_sprite_loader___svg_sprite_loader_6.0.11.tgz";
+        url = "https://registry.yarnpkg.com/svg-sprite-loader/-/svg-sprite-loader-6.0.11.tgz";
+        sha512 = "TedsTf8wsHH6HgdwKjUveDZRC6q5gPloYV8A8/zZaRWP929J7x6TzQ6MvZFl+YYDJuJ0Akyuu/vNVJ+fbPuYXg==";
       };
     }
     {
