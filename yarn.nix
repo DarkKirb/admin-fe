@@ -2664,11 +2664,11 @@
       };
     }
     {
-      name = "babel_loader___babel_loader_8.2.5.tgz";
+      name = "babel_loader___babel_loader_8.3.0.tgz";
       path = fetchurl {
-        name = "babel_loader___babel_loader_8.2.5.tgz";
-        url = "https://registry.yarnpkg.com/babel-loader/-/babel-loader-8.2.5.tgz";
-        sha512 = "OSiFfH89LrEMiWd4pLNqGz4CwJDtbs2ZVc+iGu2HrkRfPxId9F2anQj38IxWpmRfsUY0aBZYi1EFcd3mhtRMLQ==";
+        name = "babel_loader___babel_loader_8.3.0.tgz";
+        url = "https://registry.yarnpkg.com/babel-loader/-/babel-loader-8.3.0.tgz";
+        sha512 = "H8SvsMF+m9t15HNLMipppzkC+Y2Yq+v3SonZyU70RBL/h1gxPkH08Ot8pEE9Z4Kd+czyWJClmFS8qzIP9OZ04Q==";
       };
     }
     {
