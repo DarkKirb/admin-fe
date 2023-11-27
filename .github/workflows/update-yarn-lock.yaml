@@ -1,0 +1,28 @@
+name: Update yarn.lock
+
+on:
+  schedule:
+    - cron: '48 4 * * *'
+  workflow_dispatch: # on button click
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+            token: ${{ secrets.PAT }}
+      - uses: cachix/install-nix-action@v23
+        with:
+          extra_nix_config: |
+            trusted-public-keys = nixcache:8KKuGz95Pk4UJ5W/Ni+pN+v+LDTkMMFV4yrGmAYgkDg= cache.nixos.org-1:6NCHdD59X431o0gWypbMrAURkbJ16ZPMQFGspcDShjY=
+            substituters = https://f000.backblazeb2.com/file/cache-chir-rs/ https://cache.nixos.org/
+      - run: yarn upgrade
+      - run: nix run github:nixos/nixpkgs#yarn2nix > yarn.nix
+      - run: nix fmt
+      - uses: peter-evans/create-pull-request@v5
+        with:
+          author: GitHub <noreply@github.com>
+          branch: yarn-update
+          token: ${{ secrets.GITHUB_TOKEN }}
