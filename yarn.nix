@@ -3336,11 +3336,11 @@
       };
     }
     {
-      name = "chalk___chalk_2.4.1.tgz";
+      name = "chalk___chalk_5.3.0.tgz";
       path = fetchurl {
-        name = "chalk___chalk_2.4.1.tgz";
-        url = "https://registry.yarnpkg.com/chalk/-/chalk-2.4.1.tgz";
-        sha512 = "ObN6h1v2fTJSmUXoS3nMQ92LbDK9be4TV+6G+omQlGJFdcUX5heKi1LZ1YnRMIgwTLEj3E24bT6tYni50rlCfQ==";
+        name = "chalk___chalk_5.3.0.tgz";
+        url = "https://registry.yarnpkg.com/chalk/-/chalk-5.3.0.tgz";
+        sha512 = "dLitG79d+GV1Nb/VYcCDFivJeK1hiukt9QjRNVOsUtTy1rR1YJsmpGGTZ3qJos+uw7WmWF4wUwBd9jxjocFC2w==";
       };
     }
     {
