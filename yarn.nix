@@ -1928,11 +1928,11 @@
       };
     }
     {
-      name = "_vue_test_utils___test_utils_1.3.0.tgz";
+      name = "_vue_test_utils___test_utils_1.3.6.tgz";
       path = fetchurl {
-        name = "_vue_test_utils___test_utils_1.3.0.tgz";
-        url = "https://registry.yarnpkg.com/@vue/test-utils/-/test-utils-1.3.0.tgz";
-        sha512 = "Xk2Xiyj2k5dFb8eYUKkcN9PzqZSppTlx7LaQWBbdA8tqh3jHr/KHX2/YLhNFc/xwDrgeLybqd+4ZCPJSGPIqeA==";
+        name = "_vue_test_utils___test_utils_1.3.6.tgz";
+        url = "https://registry.yarnpkg.com/@vue/test-utils/-/test-utils-1.3.6.tgz";
+        sha512 = "udMmmF1ts3zwxUJEIAj5ziioR900reDrt6C9H3XpWPsLBx2lpHKoA4BTdd9HNIYbkGltWw+JjWJ+5O6QBwiyEw==";
       };
     }
     {
