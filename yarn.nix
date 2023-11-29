@@ -10768,11 +10768,11 @@
       };
     }
     {
-      name = "script_ext_html_webpack_plugin___script_ext_html_webpack_plugin_2.0.1.tgz";
+      name = "script_ext_html_webpack_plugin___script_ext_html_webpack_plugin_2.1.5.tgz";
       path = fetchurl {
-        name = "script_ext_html_webpack_plugin___script_ext_html_webpack_plugin_2.0.1.tgz";
-        url = "https://registry.yarnpkg.com/script-ext-html-webpack-plugin/-/script-ext-html-webpack-plugin-2.0.1.tgz";
-        sha512 = "kUH+XhpjG95ABMnWeKCguM7NCOqSrGlYEnJQKgvPIyq5+FzQuACMLzWOB/Lp7t0sKqKLWNLu8i6MmLRKRo1IUw==";
+        name = "script_ext_html_webpack_plugin___script_ext_html_webpack_plugin_2.1.5.tgz";
+        url = "https://registry.yarnpkg.com/script-ext-html-webpack-plugin/-/script-ext-html-webpack-plugin-2.1.5.tgz";
+        sha512 = "nMjd5dtsnoB8dS+pVM9ZL4mC9O1uVtTxrDS99OGZsZxFbkZE6pw0HCMued/cncDrKivIShO9vwoyOTvsGqQHEQ==";
       };
     }
     {
