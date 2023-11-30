@@ -5240,11 +5240,11 @@
       };
     }
     {
-      name = "file_loader___file_loader_1.1.11.tgz";
+      name = "file_loader___file_loader_6.2.0.tgz";
       path = fetchurl {
-        name = "file_loader___file_loader_1.1.11.tgz";
-        url = "https://registry.yarnpkg.com/file-loader/-/file-loader-1.1.11.tgz";
-        sha512 = "TGR4HU7HUsGg6GCOPJnFk06RhWgEWFLAGWiT6rcD+GRC2keU3s9RGJ+b3Z6/U73jwwNb2gKLJ7YCrp+jvU4ALg==";
+        name = "file_loader___file_loader_6.2.0.tgz";
+        url = "https://registry.yarnpkg.com/file-loader/-/file-loader-6.2.0.tgz";
+        sha512 = "qo3glqyTa61Ytg4u73GultjHGjdRyig3tG6lPtyX/jOEJvHif9uB0/OCI2Kif6ctF3caQTW2G5gym21oAsI4pw==";
       };
     }
     {
@@ -10565,14 +10565,6 @@
         name = "sax___sax_1.2.4.tgz";
         url = "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz";
         sha512 = "NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==";
-      };
-    }
-    {
-      name = "schema_utils___schema_utils_0.4.7.tgz";
-      path = fetchurl {
-        name = "schema_utils___schema_utils_0.4.7.tgz";
-        url = "https://registry.yarnpkg.com/schema-utils/-/schema-utils-0.4.7.tgz";
-        sha512 = "v/iwU6wvwGK8HbU9yi3/nhGzP0yGSuhQMzL6ySiec1FSrZZDkhm4noOSWzrNFo/jEc+SJY6jRTwuwbSXJPDUnQ==";
       };
     }
     {
