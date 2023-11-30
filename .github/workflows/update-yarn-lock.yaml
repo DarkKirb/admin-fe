@@ -11,8 +11,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-            token: ${{ secrets.PAT }}
       - uses: cachix/install-nix-action@v24
         with:
           extra_nix_config: |
@@ -25,4 +23,5 @@ jobs:
         with:
           author: GitHub <noreply@github.com>
           branch: yarn-update
+          title: Update yarn.lock
           token: ${{ secrets.GITHUB_TOKEN }}

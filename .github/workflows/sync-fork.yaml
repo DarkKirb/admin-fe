@@ -18,4 +18,5 @@ jobs:
         with:
           author: GitHub <noreply@github.com>
           branch: akkoma
+          title: Update from akkoma upstream
           token: ${{ secrets.GITHUB_TOKEN }}
