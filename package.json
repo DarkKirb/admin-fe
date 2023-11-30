@@ -97,7 +97,7 @@
     "eslint-friendly-formatter": "4.0.1",
     "eslint-loader": "2.0.0",
     "eslint-plugin-vue": "4.7.1",
-    "file-loader": "1.1.11",
+    "file-loader": "6.2.0",
     "flush-promises": "^1.0.2",
     "friendly-errors-webpack-plugin": "1.7.0",
     "hash-sum": "2.0.0",
