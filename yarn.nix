@@ -3744,11 +3744,11 @@
       };
     }
     {
-      name = "connect___connect_3.6.6.tgz";
+      name = "connect___connect_3.7.0.tgz";
       path = fetchurl {
-        name = "connect___connect_3.6.6.tgz";
-        url = "https://registry.yarnpkg.com/connect/-/connect-3.6.6.tgz";
-        sha512 = "OO7axMmPpu/2XuX1+2Yrg0ddju31B6xLZMWkJ5rYBu4YRmRVlOjvlY6kw2FJKiAzyxGwnrDUAG4s1Pf0sbBMCQ==";
+        name = "connect___connect_3.7.0.tgz";
+        url = "https://registry.yarnpkg.com/connect/-/connect-3.7.0.tgz";
+        sha512 = "ZqRXc+tZukToSNmh5C2iWMSoV3X1YUcPbqEM4DkEG5tNQXrQUZCNVGGv3IuicnkMtPfGf3Xtp8WCXs295iQ1pQ==";
       };
     }
     {
@@ -5288,11 +5288,11 @@
       };
     }
     {
-      name = "finalhandler___finalhandler_1.1.0.tgz";
+      name = "finalhandler___finalhandler_1.1.2.tgz";
       path = fetchurl {
-        name = "finalhandler___finalhandler_1.1.0.tgz";
-        url = "https://registry.yarnpkg.com/finalhandler/-/finalhandler-1.1.0.tgz";
-        sha512 = "ejnvM9ZXYzp6PUPUyQBMBf0Co5VX2gr5H2VQe2Ui2jWXNlxv+PYZo8wpAymJNJdLsG1R4p+M4aynF8KuoUEwRw==";
+        name = "finalhandler___finalhandler_1.1.2.tgz";
+        url = "https://registry.yarnpkg.com/finalhandler/-/finalhandler-1.1.2.tgz";
+        sha512 = "aAWcW57uxVNrQZqFXjITpW3sIUQmHGG3qSb9mUah9MgMC4NeWhNOlNjXEYq3HjRAvL6arUviZGGJsBg6z0zsWA==";
       };
     }
     {
@@ -11245,14 +11245,6 @@
         name = "statuses___statuses_1.5.0.tgz";
         url = "https://registry.yarnpkg.com/statuses/-/statuses-1.5.0.tgz";
         sha512 = "OpZ3zP+jT1PI7I8nemJX4AKmAX070ZkYPVWV/AaKTJl+tXCTGyVdC1a4SL8RUQYEwk/f34ZX8UTykN68FwrqAA==";
-      };
-    }
-    {
-      name = "statuses___statuses_1.3.1.tgz";
-      path = fetchurl {
-        name = "statuses___statuses_1.3.1.tgz";
-        url = "https://registry.yarnpkg.com/statuses/-/statuses-1.3.1.tgz";
-        sha512 = "wuTCPGlJONk/a1kqZ4fQM2+908lC7fa7nPYpTC1EhnvqLX/IICbeP1OZGDtA374trpSq68YubKUMo8oRhN46yg==";
       };
     }
     {
