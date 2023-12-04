@@ -5080,11 +5080,11 @@
       };
     }
     {
-      name = "file_saver___file_saver_1.3.8.tgz";
+      name = "file_saver___file_saver_2.0.5.tgz";
       path = fetchurl {
-        name = "file_saver___file_saver_1.3.8.tgz";
-        url = "https://registry.yarnpkg.com/file-saver/-/file-saver-1.3.8.tgz";
-        sha512 = "spKHSBQIxxS81N/O21WmuXA2F6wppUCsutpzenOeZzOCCJ5gEfcbqJP983IrpLXzYmXnMUa6J03SubcNPdKrlg==";
+        name = "file_saver___file_saver_2.0.5.tgz";
+        url = "https://registry.yarnpkg.com/file-saver/-/file-saver-2.0.5.tgz";
+        sha512 = "P9bmyZ3h/PRG+Nzga+rbdI4OEpNDzAVyy74uVO9ATgzLK6VtAsYybF/+TOCvrc0MO793d6+42lLyZTw7/ArVzA==";
       };
     }
     {
