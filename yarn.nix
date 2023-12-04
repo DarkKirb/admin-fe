@@ -1536,11 +1536,11 @@
       };
     }
     {
-      name = "_types_node___node_20.10.2.tgz";
+      name = "_types_node___node_20.10.3.tgz";
       path = fetchurl {
-        name = "_types_node___node_20.10.2.tgz";
-        url = "https://registry.yarnpkg.com/@types/node/-/node-20.10.2.tgz";
-        sha512 = "37MXfxkb0vuIlRKHNxwCkb60PNBpR94u4efQuN4JgIAm66zfCDXGSAFCef9XUWFovX2R1ok6Z7MHhtdVXXkkIw==";
+        name = "_types_node___node_20.10.3.tgz";
+        url = "https://registry.yarnpkg.com/@types/node/-/node-20.10.3.tgz";
+        sha512 = "XJavIpZqiXID5Yxnxv3RUDKTN5b81ddNC3ecsA0SoFXz/QU8OGBwZGMomiq0zw+uuqbL/krztv/DINAQ/EV4gg==";
       };
     }
     {
@@ -2840,11 +2840,11 @@
       };
     }
     {
-      name = "browserslist___browserslist_4.22.1.tgz";
+      name = "browserslist___browserslist_4.22.2.tgz";
       path = fetchurl {
-        name = "browserslist___browserslist_4.22.1.tgz";
-        url = "https://registry.yarnpkg.com/browserslist/-/browserslist-4.22.1.tgz";
-        sha512 = "FEVc202+2iuClEhZhrWy6ZiAcRLvNMyYcxZ8raemul1DYVOVdFsbqckWLdsixQZCpJlwe77Z3UTalE7jsjnKfQ==";
+        name = "browserslist___browserslist_4.22.2.tgz";
+        url = "https://registry.yarnpkg.com/browserslist/-/browserslist-4.22.2.tgz";
+        sha512 = "0UgcrvQmBDvZHFGdYUehrCNIazki7/lUP3kkoi/r3YB2amZbFM9J43ZRkJTXBUZK4gmx56+Sqk9+Vs9mwZx9+A==";
       };
     }
     {
@@ -3056,11 +3056,11 @@
       };
     }
     {
-      name = "caniuse_lite___caniuse_lite_1.0.30001565.tgz";
+      name = "caniuse_lite___caniuse_lite_1.0.30001566.tgz";
       path = fetchurl {
-        name = "caniuse_lite___caniuse_lite_1.0.30001565.tgz";
-        url = "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001565.tgz";
-        sha512 = "xrE//a3O7TP0vaJ8ikzkD2c2NgcVUvsEe2IvFTntV4Yd1Z9FVzh+gW+enX96L0psrbaFMcVcH2l90xNuGDWc8w==";
+        name = "caniuse_lite___caniuse_lite_1.0.30001566.tgz";
+        url = "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001566.tgz";
+        sha512 = "ggIhCsTxmITBAMmK8yZjEhCO5/47jKXPu6Dha/wuCS4JePVL+3uiDEBuhu2aIoT+bqTOR8L76Ip1ARL9xYsEJA==";
       };
     }
     {
