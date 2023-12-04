@@ -10704,11 +10704,11 @@
       };
     }
     {
-      name = "sortablejs___sortablejs_1.15.0.tgz";
+      name = "sortablejs___sortablejs_1.15.1.tgz";
       path = fetchurl {
-        name = "sortablejs___sortablejs_1.15.0.tgz";
-        url = "https://registry.yarnpkg.com/sortablejs/-/sortablejs-1.15.0.tgz";
-        sha512 = "bv9qgVMjUMf89wAvM6AxVvS/4MX3sPeN0+agqShejLU5z5GX4C75ow1O2e5k4L6XItUyAK3gH6AxSbXrOM5e8w==";
+        name = "sortablejs___sortablejs_1.15.1.tgz";
+        url = "https://registry.yarnpkg.com/sortablejs/-/sortablejs-1.15.1.tgz";
+        sha512 = "P5Cjvb0UG1ZVNiDPj/n4V+DinttXG6K8n7vM/HQf0C25K3YKQTQY6fsr/sEGsJGpQ9exmPxluHxKBc0mLKU1lQ==";
       };
     }
     {
