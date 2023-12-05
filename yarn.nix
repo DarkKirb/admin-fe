@@ -10488,11 +10488,11 @@
       };
     }
     {
-      name = "shelljs___shelljs_0.8.2.tgz";
+      name = "shelljs___shelljs_0.8.5.tgz";
       path = fetchurl {
-        name = "shelljs___shelljs_0.8.2.tgz";
-        url = "https://registry.yarnpkg.com/shelljs/-/shelljs-0.8.2.tgz";
-        sha512 = "pRXeNrCA2Wd9itwhvLp5LZQvPJ0wU6bcjaTMywHHGX5XWhVN2nzSu7WV0q+oUY7mGK3mgSkDDzP3MgjqdyIgbQ==";
+        name = "shelljs___shelljs_0.8.5.tgz";
+        url = "https://registry.yarnpkg.com/shelljs/-/shelljs-0.8.5.tgz";
+        sha512 = "TiwcRcrkhHvbrZbnRcFYMLl30Dfov3HKqzp5tO5b4pt6G/SezKcYhmDg15zXVBswHmctSAQKznqNW2LO5tTDow==";
       };
     }
     {
