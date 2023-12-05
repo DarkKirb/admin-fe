@@ -59,7 +59,7 @@
     "nprogress": "0.2.0",
     "numeral": "^2.0.6",
     "screenfull": "6.0.2",
-    "showdown": "1.8.6",
+    "showdown": "2.1.0",
     "sortablejs": "1.15.1",
     "tiptap": "^1.29.6",
     "tiptap-extensions": "^1.32.7",
