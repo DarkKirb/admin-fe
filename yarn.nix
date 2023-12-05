@@ -12016,11 +12016,11 @@
       };
     }
     {
-      name = "vue_splitpane___vue_splitpane_1.0.2.tgz";
+      name = "vue_splitpane___vue_splitpane_1.0.6.tgz";
       path = fetchurl {
-        name = "vue_splitpane___vue_splitpane_1.0.2.tgz";
-        url = "https://registry.yarnpkg.com/vue-splitpane/-/vue-splitpane-1.0.2.tgz";
-        sha512 = "Gt75+3MqngNOcRja0oomQK3piMxNy8wYeXn1ZJa1uLSiQB6FeAerUyARkA47e9j44CSDLCf2srJNXV4/bem0Iw==";
+        name = "vue_splitpane___vue_splitpane_1.0.6.tgz";
+        url = "https://registry.yarnpkg.com/vue-splitpane/-/vue-splitpane-1.0.6.tgz";
+        sha512 = "6sneVSEeF1VsCD025HP93nRxwzYhv3rotCeYi2Ah1FmGxwtfqbCZEIzaHGberdGNCpMlEzGD/1OIE1kK5QukLA==";
       };
     }
     {
