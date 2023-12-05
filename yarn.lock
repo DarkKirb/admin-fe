@@ -11310,10 +11310,10 @@ vue-router@^3.5.1:
   resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-3.6.5.tgz#95847d52b9a7e3f1361cb605c8e6441f202afad8"
   integrity sha512-VYXZQLtjuvKxxcshuRAwjHnciqZVoXAjTjcqBTz4rKc8qih9g9pI3hbDjmqXaHdgL3v8pV6P8Z335XvHzESxLQ==
 
-vue-splitpane@1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/vue-splitpane/-/vue-splitpane-1.0.2.tgz#a2459a2f102d0f0dbb6049f1244ed50a03a5b64a"
-  integrity sha512-Gt75+3MqngNOcRja0oomQK3piMxNy8wYeXn1ZJa1uLSiQB6FeAerUyARkA47e9j44CSDLCf2srJNXV4/bem0Iw==
+vue-splitpane@1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/vue-splitpane/-/vue-splitpane-1.0.6.tgz#c4667bfdd8e10ced5d23d09fe8a129585c2c04c0"
+  integrity sha512-6sneVSEeF1VsCD025HP93nRxwzYhv3rotCeYi2Ah1FmGxwtfqbCZEIzaHGberdGNCpMlEzGD/1OIE1kK5QukLA==
 
 vue-style-loader@4.1.3, vue-style-loader@^4.1.0:
   version "4.1.3"
