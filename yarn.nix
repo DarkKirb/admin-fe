@@ -4280,11 +4280,11 @@
       };
     }
     {
-      name = "dropzone___dropzone_5.2.0.tgz";
+      name = "dropzone___dropzone_5.9.3.tgz";
       path = fetchurl {
-        name = "dropzone___dropzone_5.2.0.tgz";
-        url = "https://registry.yarnpkg.com/dropzone/-/dropzone-5.2.0.tgz";
-        sha512 = "q19hPFZ5arNoc7RoEyEo53rZF+UNLQETjxlJFUUYKoSj9gREDR3eee13Ua6E+CE3rqszy0bB44leX+Yo5RCWVw==";
+        name = "dropzone___dropzone_5.9.3.tgz";
+        url = "https://registry.yarnpkg.com/dropzone/-/dropzone-5.9.3.tgz";
+        sha512 = "Azk8kD/2/nJIuVPK+zQ9sjKMRIpRvNyqn9XwbBHNq+iNuSccbJS6hwm1Woy0pMST0erSo0u4j+KJaodndDk4vA==";
       };
     }
     {
