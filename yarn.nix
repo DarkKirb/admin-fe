@@ -9880,11 +9880,11 @@
       };
     }
     {
-      name = "rimraf___rimraf_2.6.2.tgz";
+      name = "rimraf___rimraf_5.0.5.tgz";
       path = fetchurl {
-        name = "rimraf___rimraf_2.6.2.tgz";
-        url = "https://registry.yarnpkg.com/rimraf/-/rimraf-2.6.2.tgz";
-        sha512 = "lreewLK/BlghmxtfH36YYVg1i8IAce4TI7oao75I1g245+6BctqTVQiBP3YUJ9C6DQOXJmkYR9X9fCLtCOJc5w==";
+        name = "rimraf___rimraf_5.0.5.tgz";
+        url = "https://registry.yarnpkg.com/rimraf/-/rimraf-5.0.5.tgz";
+        sha512 = "CqDakW+hMe/Bz202FPEymy68P+G50RfMQK+Qo5YUqc9SPipvbGjCGKd0RSKEelbsfQuw3g5NZDSrlZZAJurH1A==";
       };
     }
     {
