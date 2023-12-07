@@ -2320,11 +2320,11 @@
       };
     }
     {
-      name = "async___async_1.5.2.tgz";
+      name = "async___async_2.6.4.tgz";
       path = fetchurl {
-        name = "async___async_1.5.2.tgz";
-        url = "https://registry.yarnpkg.com/async/-/async-1.5.2.tgz";
-        sha512 = "nSVgobk4rv61R9PUSDtYt7mPVB2olxNR5RWJcAsH676/ef11bUZwvu7+RGYrYauVdDPcO519v68wRhXQtxsV9w==";
+        name = "async___async_2.6.4.tgz";
+        url = "https://registry.yarnpkg.com/async/-/async-2.6.4.tgz";
+        sha512 = "mzo5dfJYwAn29PeiJ0zvwTo04zj8HDJj0Mn8TD7sno7q12prdbnasKJHhkm2c1LgrhlJ0teaea8860oxi51mGA==";
       };
     }
     {
@@ -8760,11 +8760,11 @@
       };
     }
     {
-      name = "portfinder___portfinder_1.0.13.tgz";
+      name = "portfinder___portfinder_1.0.32.tgz";
       path = fetchurl {
-        name = "portfinder___portfinder_1.0.13.tgz";
-        url = "https://registry.yarnpkg.com/portfinder/-/portfinder-1.0.13.tgz";
-        sha512 = "ULY4nnWaco7FwsQh6V0Gm0wTvMcCAT3GIsadt8Gqrrc4XJSXkC9XLHzAE1oMAtVS68jnrAjDypYfVPVP1JeTmA==";
+        name = "portfinder___portfinder_1.0.32.tgz";
+        url = "https://registry.yarnpkg.com/portfinder/-/portfinder-1.0.32.tgz";
+        sha512 = "on2ZJVVDXRADWE6jnQaX0ioEylzgBpQk8r55NE4wjXW1ZxO+BgDlY6DXwj20i0V8eB4SenDQ00WEaxfiIQPcxg==";
       };
     }
     {
