@@ -3184,11 +3184,11 @@
       };
     }
     {
-      name = "clipboard___clipboard_1.7.1.tgz";
+      name = "clipboard___clipboard_2.0.11.tgz";
       path = fetchurl {
-        name = "clipboard___clipboard_1.7.1.tgz";
-        url = "https://registry.yarnpkg.com/clipboard/-/clipboard-1.7.1.tgz";
-        sha512 = "smkaRaIQsrnKN1F3wd1/vY9Q+DeR4L8ZCXKeHCFC2j8RZuSBbuImcLdnIO4GTxmzJxQuDGNKkyfpGoPW7Ua5bQ==";
+        name = "clipboard___clipboard_2.0.11.tgz";
+        url = "https://registry.yarnpkg.com/clipboard/-/clipboard-2.0.11.tgz";
+        sha512 = "C+0bbOqkezLIsmWSvlsXS0Q0bmkugu7jcfMIACB+RDEntIzQIkdr148we28AfSloQLRdZlYL/QYyrq05j/3Faw==";
       };
     }
     {
