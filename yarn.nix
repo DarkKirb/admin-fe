@@ -960,11 +960,11 @@
       };
     }
     {
-      name = "_codemirror_view___view_6.22.1.tgz";
+      name = "_codemirror_view___view_6.22.2.tgz";
       path = fetchurl {
-        name = "_codemirror_view___view_6.22.1.tgz";
-        url = "https://registry.yarnpkg.com/@codemirror/view/-/view-6.22.1.tgz";
-        sha512 = "38BRn1nPqZqiHbmWfI8zri23IbRVbmSpSmh1E/Ysvc+lIGGdBC17K8zlK7ZU6fhfy9x4De9Zyj5JQqScPq5DkA==";
+        name = "_codemirror_view___view_6.22.2.tgz";
+        url = "https://registry.yarnpkg.com/@codemirror/view/-/view-6.22.2.tgz";
+        sha512 = "cJp64cPXm7QfSBWEXK+76+hsZCGHupUgy8JAbSzMG6Lr0rfK73c1CaWITVW6hZVkOnAFxJTxd0PIuynNbzxYPw==";
       };
     }
     {
@@ -4344,11 +4344,11 @@
       };
     }
     {
-      name = "electron_to_chromium___electron_to_chromium_1.4.608.tgz";
+      name = "electron_to_chromium___electron_to_chromium_1.4.609.tgz";
       path = fetchurl {
-        name = "electron_to_chromium___electron_to_chromium_1.4.608.tgz";
-        url = "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.608.tgz";
-        sha512 = "J2f/3iIIm3Mo0npneITZ2UPe4B1bg8fTNrFjD8715F/k1BvbviRuqYGkET1PgprrczXYTHFvotbBOmUp6KE0uA==";
+        name = "electron_to_chromium___electron_to_chromium_1.4.609.tgz";
+        url = "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.609.tgz";
+        sha512 = "ihiCP7PJmjoGNuLpl7TjNA8pCQWu09vGyjlPYw1Rqww4gvNuCcmvl+44G+2QyJ6S2K4o+wbTS++Xz0YN8Q9ERw==";
       };
     }
     {
@@ -9352,11 +9352,11 @@
       };
     }
     {
-      name = "prosemirror_view___prosemirror_view_1.32.5.tgz";
+      name = "prosemirror_view___prosemirror_view_1.32.6.tgz";
       path = fetchurl {
-        name = "prosemirror_view___prosemirror_view_1.32.5.tgz";
-        url = "https://registry.yarnpkg.com/prosemirror-view/-/prosemirror-view-1.32.5.tgz";
-        sha512 = "OZ8JSytiOr1mlxu8XSPJSNMn3sQrycbP12Peubwsnq9xiyQk4F58u9wOPJYSXXG/uOXZQNSAITRnScZPdjEh+A==";
+        name = "prosemirror_view___prosemirror_view_1.32.6.tgz";
+        url = "https://registry.yarnpkg.com/prosemirror-view/-/prosemirror-view-1.32.6.tgz";
+        sha512 = "26r5LvyDlPgUNVf7ZdNdGrMJnylwjJtUJTfDuYOANIVx9lqWD1WCBlGg283weYQGKUC64DXR25LeAmliB9CrFQ==";
       };
     }
     {
