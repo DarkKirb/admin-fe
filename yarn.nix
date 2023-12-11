@@ -768,11 +768,11 @@
       };
     }
     {
-      name = "_babel_plugin_transform_runtime___plugin_transform_runtime_7.23.4.tgz";
+      name = "_babel_plugin_transform_runtime___plugin_transform_runtime_7.23.6.tgz";
       path = fetchurl {
-        name = "_babel_plugin_transform_runtime___plugin_transform_runtime_7.23.4.tgz";
-        url = "https://registry.yarnpkg.com/@babel/plugin-transform-runtime/-/plugin-transform-runtime-7.23.4.tgz";
-        sha512 = "ITwqpb6V4btwUG0YJR82o2QvmWrLgDnx/p2A3CTPYGaRgULkDiC0DRA2C4jlRB9uXGUEfaSS/IGHfVW+ohzYDw==";
+        name = "_babel_plugin_transform_runtime___plugin_transform_runtime_7.23.6.tgz";
+        url = "https://registry.yarnpkg.com/@babel/plugin-transform-runtime/-/plugin-transform-runtime-7.23.6.tgz";
+        sha512 = "kF1Zg62aPseQ11orDhFRw+aPG/eynNQtI+TyY+m33qJa2cJ5EEvza2P2BNTIA9E5MyqFABHEyY6CPHwgdy9aNg==";
       };
     }
     {
