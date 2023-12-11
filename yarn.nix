@@ -11024,11 +11024,11 @@
       };
     }
     {
-      name = "svgo___svgo_3.0.5.tgz";
+      name = "svgo___svgo_3.1.0.tgz";
       path = fetchurl {
-        name = "svgo___svgo_3.0.5.tgz";
-        url = "https://registry.yarnpkg.com/svgo/-/svgo-3.0.5.tgz";
-        sha512 = "HQKHEo73pMNOlDlBcLgZRcHW2+1wo7bFYayAXkGN0l/2+h68KjlfZyMRhdhaGvoHV2eApOovl12zoFz42sT6rQ==";
+        name = "svgo___svgo_3.1.0.tgz";
+        url = "https://registry.yarnpkg.com/svgo/-/svgo-3.1.0.tgz";
+        sha512 = "R5SnNA89w1dYgNv570591F66v34b3eQShpIBcQtZtM5trJwm1VvxbIoMpRYY3ybTAutcKTLEmTsdnaknOHbiQA==";
       };
     }
     {
