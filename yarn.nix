@@ -4344,11 +4344,11 @@
       };
     }
     {
-      name = "electron_to_chromium___electron_to_chromium_1.4.613.tgz";
+      name = "electron_to_chromium___electron_to_chromium_1.4.614.tgz";
       path = fetchurl {
-        name = "electron_to_chromium___electron_to_chromium_1.4.613.tgz";
-        url = "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.613.tgz";
-        sha512 = "r4x5+FowKG6q+/Wj0W9nidx7QO31BJwmR2uEo+Qh3YLGQ8SbBAFuDFpTxzly/I2gsbrFwBuIjrMp423L3O5U3w==";
+        name = "electron_to_chromium___electron_to_chromium_1.4.614.tgz";
+        url = "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.614.tgz";
+        sha512 = "X4ze/9Sc3QWs6h92yerwqv7aB/uU8vCjZcrMjA8N9R1pjMFRe44dLsck5FzLilOYvcXuDn93B+bpGYyufc70gQ==";
       };
     }
     {
@@ -9640,11 +9640,11 @@
       };
     }
     {
-      name = "regenerator_runtime___regenerator_runtime_0.14.0.tgz";
+      name = "regenerator_runtime___regenerator_runtime_0.14.1.tgz";
       path = fetchurl {
-        name = "regenerator_runtime___regenerator_runtime_0.14.0.tgz";
-        url = "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.14.0.tgz";
-        sha512 = "srw17NI0TUWHuGa5CFGGmhfNIeja30WMBfbslPNhf6JrqQlLN5gcrvig1oqPxiVaXb0oW0XRKtH6Nngs5lKCIA==";
+        name = "regenerator_runtime___regenerator_runtime_0.14.1.tgz";
+        url = "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.14.1.tgz";
+        sha512 = "dYnhHh0nJoMfnkZs6GmmhFknAGRrLznOu5nc9ML+EJxGvrx6H7teuevqVqCuPcPK//3eDrrjQhehXVx9cnkGdw==";
       };
     }
     {
