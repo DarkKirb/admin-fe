@@ -4243,9 +4243,9 @@ ejs@^2.5.7:
   integrity sha512-7vmuyh5+kuUyJKePhQfRQBhXV5Ce+RnaeeQArKu1EAMpL3WbgMt5WG6uQZpEVvYSSsxMXRKOewtDk9RaTKXRlA==
 
 electron-to-chromium@^1.4.601:
-  version "1.4.614"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.614.tgz#2fe789d61fa09cb875569f37c309d0c2701f91c0"
-  integrity sha512-X4ze/9Sc3QWs6h92yerwqv7aB/uU8vCjZcrMjA8N9R1pjMFRe44dLsck5FzLilOYvcXuDn93B+bpGYyufc70gQ==
+  version "1.4.615"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.615.tgz#b1c41839962d2e4e63dca05519da9040e34848c2"
+  integrity sha512-/bKPPcgZVUziECqDc+0HkT87+0zhaWSZHNXqF8FLd2lQcptpmUFwoCSWjCdOng9Gdq+afKArPdEg/0ZW461Eng==
 
 element-ui@^2.13.0:
   version "2.15.14"
@@ -8938,9 +8938,9 @@ prosemirror-transform@^1.0.0, prosemirror-transform@^1.1.0, prosemirror-transfor
     prosemirror-model "^1.0.0"
 
 prosemirror-view@^1.0.0, prosemirror-view@^1.1.0, prosemirror-view@^1.13.3, prosemirror-view@^1.16.5, prosemirror-view@^1.18.7, prosemirror-view@^1.27.0, prosemirror-view@^1.31.0:
-  version "1.32.6"
-  resolved "https://registry.yarnpkg.com/prosemirror-view/-/prosemirror-view-1.32.6.tgz#8e8a366ea1ce9b59dbb7f4c6fa7aacf4af2532d7"
-  integrity sha512-26r5LvyDlPgUNVf7ZdNdGrMJnylwjJtUJTfDuYOANIVx9lqWD1WCBlGg283weYQGKUC64DXR25LeAmliB9CrFQ==
+  version "1.32.7"
+  resolved "https://registry.yarnpkg.com/prosemirror-view/-/prosemirror-view-1.32.7.tgz#b9c4e8471daeba79489befa59eaeaeb4cd2e2653"
+  integrity sha512-pvxiOoD4shW41X5bYDjRQk3DSG4fMqxh36yPMt7VYgU3dWRmqFzWJM/R6zeo1KtC8nyk717ZbQND3CC9VNeptw==
   dependencies:
     prosemirror-model "^1.16.0"
     prosemirror-state "^1.0.0"
