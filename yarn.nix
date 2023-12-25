@@ -5400,6 +5400,14 @@
       };
     }
     {
+      name = "glob_to_regexp___glob_to_regexp_0.4.1.tgz";
+      path = fetchurl {
+        name = "glob_to_regexp___glob_to_regexp_0.4.1.tgz";
+        url = "https://registry.yarnpkg.com/glob-to-regexp/-/glob-to-regexp-0.4.1.tgz";
+        sha512 = "lkX1HJXwyMcprw/5YUZc2s7DrpAiHB21/V+E1rHUrVNokkvB6bqMzT0VfV6/86ZNabt1k14YOIaT7nDvOX3Iiw==";
+      };
+    }
+    {
       name = "glob___glob_10.3.10.tgz";
       path = fetchurl {
         name = "glob___glob_10.3.10.tgz";
@@ -11752,14 +11760,6 @@
       };
     }
     {
-      name = "vue_hot_reload_api___vue_hot_reload_api_2.3.4.tgz";
-      path = fetchurl {
-        name = "vue_hot_reload_api___vue_hot_reload_api_2.3.4.tgz";
-        url = "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.3.4.tgz";
-        sha512 = "BXq3jwIagosjgNVae6tkHzzIk6a8MHFtzAdwhnV5VlvPTFxDCvIttgSiHWjdGoTJvXtmRu5HacExfdarRcFhog==";
-      };
-    }
-    {
       name = "vue_i18n___vue_i18n_8.28.2.tgz";
       path = fetchurl {
         name = "vue_i18n___vue_i18n_8.28.2.tgz";
@@ -11776,11 +11776,11 @@
       };
     }
     {
-      name = "vue_loader___vue_loader_15.3.0.tgz";
+      name = "vue_loader___vue_loader_17.4.0.tgz";
       path = fetchurl {
-        name = "vue_loader___vue_loader_15.3.0.tgz";
-        url = "https://registry.yarnpkg.com/vue-loader/-/vue-loader-15.3.0.tgz";
-        sha512 = "cqoefQo1pocGEFY9l/SR6LsbmMpQ8JD374kFPL/1Et4uY4/C5DCY4Cq9Bevbf10ZuHAWS4Gf//szgxGZwdObIw==";
+        name = "vue_loader___vue_loader_17.4.0.tgz";
+        url = "https://registry.yarnpkg.com/vue-loader/-/vue-loader-17.4.0.tgz";
+        sha512 = "tq81JlBNWYvoYAh5PRZXg5bE7BEv0Id6W7BF5otj18MtHgu5OqiK9rQu0z73r+VGlIq0lLDoEeC7RWYynUpXlQ==";
       };
     }
     {
@@ -11877,6 +11877,14 @@
         name = "watchpack___watchpack_1.7.5.tgz";
         url = "https://registry.yarnpkg.com/watchpack/-/watchpack-1.7.5.tgz";
         sha512 = "9P3MWk6SrKjHsGkLT2KHXdQ/9SNkyoJbabxnKOoJepsvJjJG8uYTR3yTPxPQvNDI3w4Nz1xnE0TLHK4RIVe/MQ==";
+      };
+    }
+    {
+      name = "watchpack___watchpack_2.4.0.tgz";
+      path = fetchurl {
+        name = "watchpack___watchpack_2.4.0.tgz";
+        url = "https://registry.yarnpkg.com/watchpack/-/watchpack-2.4.0.tgz";
+        sha512 = "Lcvm7MGST/4fup+ifyKi2hjyIAwcdI4HRgtvTpIUxBRhB+RFtUh8XtDOxUfctVCnhVi+QQj49i91OyvzkJl6cg==";
       };
     }
     {
