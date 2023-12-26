@@ -3424,11 +3424,11 @@
       };
     }
     {
-      name = "compression_webpack_plugin___compression_webpack_plugin_6.1.1.tgz";
+      name = "compression_webpack_plugin___compression_webpack_plugin_6.1.2.tgz";
       path = fetchurl {
-        name = "compression_webpack_plugin___compression_webpack_plugin_6.1.1.tgz";
-        url = "https://registry.yarnpkg.com/compression-webpack-plugin/-/compression-webpack-plugin-6.1.1.tgz";
-        sha512 = "BEHft9M6lwOqVIQFMS/YJGmeCYXVOakC5KzQk05TFpMBlODByh1qNsZCWjUBxCQhUP9x0WfGidxTbGkjbWO/TQ==";
+        name = "compression_webpack_plugin___compression_webpack_plugin_6.1.2.tgz";
+        url = "https://registry.yarnpkg.com/compression-webpack-plugin/-/compression-webpack-plugin-6.1.2.tgz";
+        sha512 = "z6xtgKP3Uds2lyrkx2PGwrE9FZT8raHTC3ImFrY3e0faAfSfVIV63JmR+sfk5pf4OhUj3E4XdjZBCKpjYWIw6Q==";
       };
     }
     {
