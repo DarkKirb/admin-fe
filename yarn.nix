@@ -7872,11 +7872,11 @@
       };
     }
     {
-      name = "moment___moment_2.30.0.tgz";
+      name = "moment___moment_2.30.1.tgz";
       path = fetchurl {
-        name = "moment___moment_2.30.0.tgz";
-        url = "https://registry.yarnpkg.com/moment/-/moment-2.30.0.tgz";
-        sha512 = "8XSlYFhOSJvnEJOas6RpDCNU2PYeVC+oE33d3Z9tIsXpD8LIgBeqrHPjP8es4b3fcJpf07D1PJWGDUfdbqDLnQ==";
+        name = "moment___moment_2.30.1.tgz";
+        url = "https://registry.yarnpkg.com/moment/-/moment-2.30.1.tgz";
+        sha512 = "uEmtNhbDOrWPFS+hdjFCBfy9f2YoyzRpwcl+DqpC6taX21FzsTLQVbMV/W7PzNSX6x/bhC1zA3c2UQ5NzH6how==";
       };
     }
     {
