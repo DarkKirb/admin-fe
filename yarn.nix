@@ -2968,11 +2968,11 @@
       };
     }
     {
-      name = "caniuse_lite___caniuse_lite_1.0.30001571.tgz";
+      name = "caniuse_lite___caniuse_lite_1.0.30001572.tgz";
       path = fetchurl {
-        name = "caniuse_lite___caniuse_lite_1.0.30001571.tgz";
-        url = "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001571.tgz";
-        sha512 = "tYq/6MoXhdezDLFZuCO/TKboTzuQ/xR5cFdgXPfDtM7/kchBO3b4VWghE/OAi/DV7tTdhmLjZiZBZi1fA/GheQ==";
+        name = "caniuse_lite___caniuse_lite_1.0.30001572.tgz";
+        url = "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001572.tgz";
+        sha512 = "1Pbh5FLmn5y4+QhNyJE9j3/7dK44dGB83/ZMjv/qJk86TvDbjk0LosiZo0i0WB0Vx607qMX9jYrn1VLHCkN4rw==";
       };
     }
     {
@@ -7872,11 +7872,11 @@
       };
     }
     {
-      name = "moment___moment_2.30.0.tgz";
+      name = "moment___moment_2.30.1.tgz";
       path = fetchurl {
-        name = "moment___moment_2.30.0.tgz";
-        url = "https://registry.yarnpkg.com/moment/-/moment-2.30.0.tgz";
-        sha512 = "8XSlYFhOSJvnEJOas6RpDCNU2PYeVC+oE33d3Z9tIsXpD8LIgBeqrHPjP8es4b3fcJpf07D1PJWGDUfdbqDLnQ==";
+        name = "moment___moment_2.30.1.tgz";
+        url = "https://registry.yarnpkg.com/moment/-/moment-2.30.1.tgz";
+        sha512 = "uEmtNhbDOrWPFS+hdjFCBfy9f2YoyzRpwcl+DqpC6taX21FzsTLQVbMV/W7PzNSX6x/bhC1zA3c2UQ5NzH6how==";
       };
     }
     {
