@@ -123,7 +123,7 @@
     "serve-static": "1.15.0",
     "shelljs": "0.8.5",
     "svg-sprite-loader": "6.0.11",
-    "svgo": "3.0.5",
+    "svgo": "3.2.0",
     "uglifyjs-webpack-plugin": "2.2.0",
     "url-loader": "4.1.1",
     "vue-jest": "4.0.0-beta.2",
