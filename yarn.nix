@@ -3816,19 +3816,19 @@
       };
     }
     {
-      name = "csso___csso_5.0.5.tgz";
-      path = fetchurl {
-        name = "csso___csso_5.0.5.tgz";
-        url = "https://registry.yarnpkg.com/csso/-/csso-5.0.5.tgz";
-        sha512 = "0LrrStPOdJj+SPCCrGhzryycLjwcgUSHBtxNA8aIDxf0GLsRh1cKYhB00Gd1lDOS4yGH69+SNn13+TWbVHETFQ==";
-      };
-    }
-    {
       name = "csso___csso_4.2.0.tgz";
       path = fetchurl {
         name = "csso___csso_4.2.0.tgz";
         url = "https://registry.yarnpkg.com/csso/-/csso-4.2.0.tgz";
         sha512 = "wvlcdIbf6pwKEk7vHj8/Bkc0B4ylXZruLvOgs9doS5eOsOpuodOV2zJChSpkp+pRpYQLQMeF04nr3Z68Sta9jA==";
+      };
+    }
+    {
+      name = "csso___csso_5.0.5.tgz";
+      path = fetchurl {
+        name = "csso___csso_5.0.5.tgz";
+        url = "https://registry.yarnpkg.com/csso/-/csso-5.0.5.tgz";
+        sha512 = "0LrrStPOdJj+SPCCrGhzryycLjwcgUSHBtxNA8aIDxf0GLsRh1cKYhB00Gd1lDOS4yGH69+SNn13+TWbVHETFQ==";
       };
     }
     {
@@ -11032,11 +11032,11 @@
       };
     }
     {
-      name = "svgo___svgo_3.0.5.tgz";
+      name = "svgo___svgo_3.2.0.tgz";
       path = fetchurl {
-        name = "svgo___svgo_3.0.5.tgz";
-        url = "https://registry.yarnpkg.com/svgo/-/svgo-3.0.5.tgz";
-        sha512 = "HQKHEo73pMNOlDlBcLgZRcHW2+1wo7bFYayAXkGN0l/2+h68KjlfZyMRhdhaGvoHV2eApOovl12zoFz42sT6rQ==";
+        name = "svgo___svgo_3.2.0.tgz";
+        url = "https://registry.yarnpkg.com/svgo/-/svgo-3.2.0.tgz";
+        sha512 = "4PP6CMW/V7l/GmKRKzsLR8xxjdHTV4IMvhTnpuHwwBazSIlw5W/5SmPjN8Dwyt7lKbSJrRDgp4t9ph0HgChFBQ==";
       };
     }
     {
