@@ -37,7 +37,7 @@
   "dependencies": {
     "@babel/runtime": "^7.3.4",
     "@toast-ui/editor": "^3.2.0",
-    "axios": "1.6.2",
+    "axios": "1.6.5",
     "clipboard": "1.7.1",
     "codemirror": "6.0.1",
     "default-passive-events": "^2.0.0",
