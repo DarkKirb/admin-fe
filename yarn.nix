@@ -1640,11 +1640,35 @@
       };
     }
     {
-      name = "_vue_compiler_sfc___compiler_sfc_2.7.16.tgz";
+      name = "_vue_compiler_core___compiler_core_3.4.14.tgz";
       path = fetchurl {
-        name = "_vue_compiler_sfc___compiler_sfc_2.7.16.tgz";
-        url = "https://registry.yarnpkg.com/@vue/compiler-sfc/-/compiler-sfc-2.7.16.tgz";
-        sha512 = "KWhJ9k5nXuNtygPU7+t1rX6baZeqOYLEforUPjgNDBnLicfHCoi48H87Q8XyLZOrNNsmhuwKqtpDQWjEFe6Ekg==";
+        name = "_vue_compiler_core___compiler_core_3.4.14.tgz";
+        url = "https://registry.yarnpkg.com/@vue/compiler-core/-/compiler-core-3.4.14.tgz";
+        sha512 = "ro4Zzl/MPdWs7XwxT7omHRxAjMbDFRZEEjD+2m3NBf8YzAe3HuoSEZosXQo+m1GQ1G3LQ1LdmNh1RKTYe+ssEg==";
+      };
+    }
+    {
+      name = "_vue_compiler_dom___compiler_dom_3.4.14.tgz";
+      path = fetchurl {
+        name = "_vue_compiler_dom___compiler_dom_3.4.14.tgz";
+        url = "https://registry.yarnpkg.com/@vue/compiler-dom/-/compiler-dom-3.4.14.tgz";
+        sha512 = "nOZTY+veWNa0DKAceNWxorAbWm0INHdQq7cejFaWM1WYnoNSJbSEKYtE7Ir6lR/+mo9fttZpPVI9ZFGJ1juUEQ==";
+      };
+    }
+    {
+      name = "_vue_compiler_sfc___compiler_sfc_3.4.14.tgz";
+      path = fetchurl {
+        name = "_vue_compiler_sfc___compiler_sfc_3.4.14.tgz";
+        url = "https://registry.yarnpkg.com/@vue/compiler-sfc/-/compiler-sfc-3.4.14.tgz";
+        sha512 = "1vHc9Kv1jV+YBZC/RJxQJ9JCxildTI+qrhtDh6tPkR1O8S+olBUekimY0km0ZNn8nG1wjtFAe9XHij+YLR8cRQ==";
+      };
+    }
+    {
+      name = "_vue_compiler_ssr___compiler_ssr_3.4.14.tgz";
+      path = fetchurl {
+        name = "_vue_compiler_ssr___compiler_ssr_3.4.14.tgz";
+        url = "https://registry.yarnpkg.com/@vue/compiler-ssr/-/compiler-ssr-3.4.14.tgz";
+        sha512 = "bXT6+oAGlFjTYVOTtFJ4l4Jab1wjsC0cfSfOe2B4Z0N2vD2zOBSQ9w694RsCfhjk+bC2DY5Gubb1rHZVii107Q==";
       };
     }
     {
@@ -1653,6 +1677,46 @@
         name = "_vue_component_compiler_utils___component_compiler_utils_2.6.0.tgz";
         url = "https://registry.yarnpkg.com/@vue/component-compiler-utils/-/component-compiler-utils-2.6.0.tgz";
         sha512 = "IHjxt7LsOFYc0DkTncB7OXJL7UzwOLPPQCfEUNyxL2qt+tF12THV+EO33O1G2Uk4feMSWua3iD39Itszx0f0bw==";
+      };
+    }
+    {
+      name = "_vue_reactivity___reactivity_3.4.14.tgz";
+      path = fetchurl {
+        name = "_vue_reactivity___reactivity_3.4.14.tgz";
+        url = "https://registry.yarnpkg.com/@vue/reactivity/-/reactivity-3.4.14.tgz";
+        sha512 = "xRYwze5Q4tK7tT2J4uy4XLhK/AIXdU5EBUu9PLnIHcOKXO0uyXpNNMzlQKuq7B+zwtq6K2wuUL39pHA6ZQzObw==";
+      };
+    }
+    {
+      name = "_vue_runtime_core___runtime_core_3.4.14.tgz";
+      path = fetchurl {
+        name = "_vue_runtime_core___runtime_core_3.4.14.tgz";
+        url = "https://registry.yarnpkg.com/@vue/runtime-core/-/runtime-core-3.4.14.tgz";
+        sha512 = "qu+NMkfujCoZL6cfqK5NOfxgXJROSlP2ZPs4CTcVR+mLrwl4TtycF5Tgo0QupkdBL+2kigc6EsJlTcuuZC1NaQ==";
+      };
+    }
+    {
+      name = "_vue_runtime_dom___runtime_dom_3.4.14.tgz";
+      path = fetchurl {
+        name = "_vue_runtime_dom___runtime_dom_3.4.14.tgz";
+        url = "https://registry.yarnpkg.com/@vue/runtime-dom/-/runtime-dom-3.4.14.tgz";
+        sha512 = "B85XmcR4E7XsirEHVqhmy4HPbRT9WLFWV9Uhie3OapV9m1MEN9+Er6hmUIE6d8/l2sUygpK9RstFM2bmHEUigA==";
+      };
+    }
+    {
+      name = "_vue_server_renderer___server_renderer_3.4.14.tgz";
+      path = fetchurl {
+        name = "_vue_server_renderer___server_renderer_3.4.14.tgz";
+        url = "https://registry.yarnpkg.com/@vue/server-renderer/-/server-renderer-3.4.14.tgz";
+        sha512 = "pwSKXQfYdJBTpvWHGEYI+akDE18TXAiLcGn+Q/2Fj8wQSHWztoo7PSvfMNqu6NDhp309QXXbPFEGCU5p85HqkA==";
+      };
+    }
+    {
+      name = "_vue_shared___shared_3.4.14.tgz";
+      path = fetchurl {
+        name = "_vue_shared___shared_3.4.14.tgz";
+        url = "https://registry.yarnpkg.com/@vue/shared/-/shared-3.4.14.tgz";
+        sha512 = "nmi3BtLpvqXAWoRZ6HQ+pFJOHBU4UnH3vD3opgmwXac7vhaHKA9nj1VeGjMggdB9eLtW83eHyPCmOU1qzdsC7Q==";
       };
     }
     {
@@ -4672,6 +4736,14 @@
       };
     }
     {
+      name = "estree_walker___estree_walker_2.0.2.tgz";
+      path = fetchurl {
+        name = "estree_walker___estree_walker_2.0.2.tgz";
+        url = "https://registry.yarnpkg.com/estree-walker/-/estree-walker-2.0.2.tgz";
+        sha512 = "Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==";
+      };
+    }
+    {
       name = "esutils___esutils_2.0.3.tgz";
       path = fetchurl {
         name = "esutils___esutils_2.0.3.tgz";
@@ -7304,6 +7376,14 @@
       };
     }
     {
+      name = "magic_string___magic_string_0.30.5.tgz";
+      path = fetchurl {
+        name = "magic_string___magic_string_0.30.5.tgz";
+        url = "https://registry.yarnpkg.com/magic-string/-/magic-string-0.30.5.tgz";
+        sha512 = "7xlpfBaQaP/T6Vh8MO/EqXSW5En6INHEvEXQiuff7Gku0PWjU3uf6w/j9o7O+SpB5fOAkrI5HeoNgwjEO0pFsA==";
+      };
+    }
+    {
       name = "make_dir___make_dir_1.3.0.tgz";
       path = fetchurl {
         name = "make_dir___make_dir_1.3.0.tgz";
@@ -9165,14 +9245,6 @@
         name = "prettier___prettier_1.16.3.tgz";
         url = "https://registry.yarnpkg.com/prettier/-/prettier-1.16.3.tgz";
         sha512 = "kn/GU6SMRYPxUakNXhpP0EedT/KmaPzr0H5lIsDogrykbaxOpOfAFfk5XA7DZrJyMAv1wlMV3CPcZruGXVVUZw==";
-      };
-    }
-    {
-      name = "prettier___prettier_2.8.8.tgz";
-      path = fetchurl {
-        name = "prettier___prettier_2.8.8.tgz";
-        url = "https://registry.yarnpkg.com/prettier/-/prettier-2.8.8.tgz";
-        sha512 = "tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==";
       };
     }
     {
@@ -11816,11 +11888,11 @@
       };
     }
     {
-      name = "vue___vue_2.7.16.tgz";
+      name = "vue___vue_3.4.14.tgz";
       path = fetchurl {
-        name = "vue___vue_2.7.16.tgz";
-        url = "https://registry.yarnpkg.com/vue/-/vue-2.7.16.tgz";
-        sha512 = "4gCtFXaAA3zYZdTp5s4Hl2sozuySsgz4jy1EnpBHNfpMa9dK1ZCG7viqBPCwXtmgc8nHqUsAu3G4gtmXkkY3Sw==";
+        name = "vue___vue_3.4.14.tgz";
+        url = "https://registry.yarnpkg.com/vue/-/vue-3.4.14.tgz";
+        sha512 = "Rop5Al/ZcBbBz+KjPZaZDgHDX0kUP4duEzDbm+1o91uxYUNmJrZSBuegsNIJvUGy+epLevNRNhLjm08VKTgGyw==";
       };
     }
     {
