@@ -2360,11 +2360,11 @@
       };
     }
     {
-      name = "axios___axios_1.6.2.tgz";
+      name = "axios___axios_1.6.6.tgz";
       path = fetchurl {
-        name = "axios___axios_1.6.2.tgz";
-        url = "https://registry.yarnpkg.com/axios/-/axios-1.6.2.tgz";
-        sha512 = "7i24Ri4pmDRfJTR7LDBhsOTtcm+9kjX5WiY1X3wIisx6G9So3pfMkEiU7emUBe46oceVImccTEM3k6C5dbVW8A==";
+        name = "axios___axios_1.6.6.tgz";
+        url = "https://registry.yarnpkg.com/axios/-/axios-1.6.6.tgz";
+        sha512 = "XZLZDFfXKM9U/Y/B4nNynfCRUqNyVZ4sBC/n9GDRCkq9vd2mIvKjKKsbIh1WPmHmNbg6ND7cTBY3Y2+u1G3/2Q==";
       };
     }
     {
