@@ -5888,11 +5888,11 @@
       };
     }
     {
-      name = "husky___husky_8.0.3.tgz";
+      name = "husky___husky_9.0.7.tgz";
       path = fetchurl {
-        name = "husky___husky_8.0.3.tgz";
-        url = "https://registry.yarnpkg.com/husky/-/husky-8.0.3.tgz";
-        sha512 = "+dQSyqPh4x1hlO1swXBiNb2HzTDN1I2IGLQx1GrBuiqFJfoMrnZWwVmatvSiO+Iz8fBUnf+lekwNo4c2LlXItg==";
+        name = "husky___husky_9.0.7.tgz";
+        url = "https://registry.yarnpkg.com/husky/-/husky-9.0.7.tgz";
+        sha512 = "vWdusw+y12DUEeoZqW1kplOFqk3tedGV8qlga8/SF6a3lOiWLqGZZQvfWvY0fQYdfiRi/u1DFNpudTSV9l1aCg==";
       };
     }
     {
