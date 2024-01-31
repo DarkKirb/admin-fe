@@ -19,7 +19,7 @@ jobs:
       - run: yarn upgrade
       - run: nix run github:nixos/nixpkgs#yarn2nix > yarn.nix
       - run: nix fmt
-      - uses: peter-evans/create-pull-request@v5
+      - uses: peter-evans/create-pull-request@v6
         with:
           author: GitHub <noreply@github.com>
           branch: yarn-update
