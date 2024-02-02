@@ -7080,19 +7080,19 @@
       };
     }
     {
-      name = "lint_staged___lint_staged_15.2.0.tgz";
+      name = "lint_staged___lint_staged_15.2.1.tgz";
       path = fetchurl {
-        name = "lint_staged___lint_staged_15.2.0.tgz";
-        url = "https://registry.yarnpkg.com/lint-staged/-/lint-staged-15.2.0.tgz";
-        sha512 = "TFZzUEV00f+2YLaVPWBWGAMq7So6yQx+GG8YRMDeOEIf95Zn5RyiLMsEiX4KTNl9vq/w+NqRJkLA1kPIo15ufQ==";
+        name = "lint_staged___lint_staged_15.2.1.tgz";
+        url = "https://registry.yarnpkg.com/lint-staged/-/lint-staged-15.2.1.tgz";
+        sha512 = "dhwAPnM85VdshybV9FWI/9ghTvMLoQLEXgVMx+ua2DN7mdfzd/tRfoU2yhMcBac0RHkofoxdnnJUokr8s4zKmQ==";
       };
     }
     {
-      name = "listr2___listr2_8.0.0.tgz";
+      name = "listr2___listr2_8.0.1.tgz";
       path = fetchurl {
-        name = "listr2___listr2_8.0.0.tgz";
-        url = "https://registry.yarnpkg.com/listr2/-/listr2-8.0.0.tgz";
-        sha512 = "u8cusxAcyqAiQ2RhYvV7kRKNLgUvtObIbhOX2NCXqvp1UU32xIg5CT22ykS2TPKJXZWJwtK3IKLiqAGlGNE+Zg==";
+        name = "listr2___listr2_8.0.1.tgz";
+        url = "https://registry.yarnpkg.com/listr2/-/listr2-8.0.1.tgz";
+        sha512 = "ovJXBXkKGfq+CwmKTjluEqFi3p4h8xvkxGQQAQan22YCgef4KZ1mKGjzfGh6PL6AW5Csw0QiQPNuQyH+6Xk3hA==";
       };
     }
     {
