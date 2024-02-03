@@ -928,11 +928,11 @@
       };
     }
     {
-      name = "_codemirror_language___language_6.10.0.tgz";
+      name = "_codemirror_language___language_6.10.1.tgz";
       path = fetchurl {
-        name = "_codemirror_language___language_6.10.0.tgz";
-        url = "https://registry.yarnpkg.com/@codemirror/language/-/language-6.10.0.tgz";
-        sha512 = "2vaNn9aPGCRFKWcHPFksctzJ8yS5p7YoaT+jHpc0UGKzNuAIx4qy6R5wiqbP+heEEdyaABA582mNqSHzSoYdmg==";
+        name = "_codemirror_language___language_6.10.1.tgz";
+        url = "https://registry.yarnpkg.com/@codemirror/language/-/language-6.10.1.tgz";
+        sha512 = "5GrXzrhq6k+gL5fjkAwt90nYDmjlzTIJV8THnxNFtNKWotMIlzzN+CpqxqwXOECnUdOndmSeWntVrVcv5axWRQ==";
       };
     }
     {
@@ -2960,11 +2960,11 @@
       };
     }
     {
-      name = "caniuse_lite___caniuse_lite_1.0.30001582.tgz";
+      name = "caniuse_lite___caniuse_lite_1.0.30001583.tgz";
       path = fetchurl {
-        name = "caniuse_lite___caniuse_lite_1.0.30001582.tgz";
-        url = "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001582.tgz";
-        sha512 = "vsJG3V5vgfduaQGVxL53uSX/HUzxyr2eA8xCo36OLal7sRcSZbibJtLeh0qja4sFOr/QQGt4opB4tOy+eOgAxg==";
+        name = "caniuse_lite___caniuse_lite_1.0.30001583.tgz";
+        url = "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001583.tgz";
+        sha512 = "acWTYaha8xfhA/Du/z4sNZjHUWjkiuoAi2LM+T/aL+kemKQgPT1xBb/YKjlQ0Qo8gvbHsGNplrEJ+9G3gL7i4Q==";
       };
     }
     {
@@ -4328,11 +4328,11 @@
       };
     }
     {
-      name = "electron_to_chromium___electron_to_chromium_1.4.655.tgz";
+      name = "electron_to_chromium___electron_to_chromium_1.4.656.tgz";
       path = fetchurl {
-        name = "electron_to_chromium___electron_to_chromium_1.4.655.tgz";
-        url = "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.655.tgz";
-        sha512 = "2yszojF7vIZ68adIOvzV4bku8OZad9w5H9xF3ZAMZjPuOjBarlflUkjN6DggdV+L71WZuKUfKUhov/34+G5QHg==";
+        name = "electron_to_chromium___electron_to_chromium_1.4.656.tgz";
+        url = "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.656.tgz";
+        sha512 = "9AQB5eFTHyR3Gvt2t/NwR0le2jBSUNwCnMbUCejFWHD+so4tH40/dRLgoE+jxlPeWS43XJewyvCv+I8LPMl49Q==";
       };
     }
     {
