@@ -8152,11 +8152,11 @@
       };
     }
     {
-      name = "marked___marked_0.8.2.tgz";
+      name = "marked___marked_12.0.1.tgz";
       path = fetchurl {
-        name = "marked___marked_0.8.2.tgz";
-        url = "https://registry.yarnpkg.com/marked/-/marked-0.8.2.tgz";
-        sha512 = "EGwzEeCcLniFX51DhTpmTom+dSA/MG/OBUDjnWtHbEnjAH180VzUeAw+oE4+Zv+CoYBWyRlYOTR0N8SO9R1PVw==";
+        name = "marked___marked_12.0.1.tgz";
+        url = "https://registry.yarnpkg.com/marked/-/marked-12.0.1.tgz";
+        sha512 = "Y1/V2yafOcOdWQCX0XpAKXzDakPOpn6U0YLxTJs3cww6VxOzZV1BTOOYWLvH3gX38cq+iLwljHHTnMtlDfg01Q==";
       };
     }
     {
