@@ -2216,11 +2216,11 @@
       };
     }
     {
-      name = "axios___axios_0.18.0.tgz";
+      name = "axios___axios_0.28.0.tgz";
       path = fetchurl {
-        name = "axios___axios_0.18.0.tgz";
-        url = "https://registry.yarnpkg.com/axios/-/axios-0.18.0.tgz";
-        sha512 = "14hgP2oTu6SPu+26Ofye6Se8u5Mmjc07a0ACHTJ5POKFU1Mtxz2IxSvaWy1O+QnbSa8XHy1gYz2E1l+G26XJdA==";
+        name = "axios___axios_0.28.0.tgz";
+        url = "https://registry.yarnpkg.com/axios/-/axios-0.28.0.tgz";
+        sha512 = "Tu7NYoGY4Yoc7I+Npf9HhUMtEEpV7ZiLH9yndTCoNhcpBH0kwcvFbzYN9/u5QKI5A6uefjsNNWaz5olJVYS62Q==";
       };
     }
     {
@@ -5461,6 +5461,14 @@
         name = "forever_agent___forever_agent_0.6.1.tgz";
         url = "https://registry.yarnpkg.com/forever-agent/-/forever-agent-0.6.1.tgz";
         sha512 = "j0KLYPhm6zeac4lz3oJ3o65qvgQCcPubiyotZrXqEaG4hNagNYO8qdlUrX5vwqv9ohqeT/Z3j6+yW067yWWdUw==";
+      };
+    }
+    {
+      name = "form_data___form_data_4.0.0.tgz";
+      path = fetchurl {
+        name = "form_data___form_data_4.0.0.tgz";
+        url = "https://registry.yarnpkg.com/form-data/-/form-data-4.0.0.tgz";
+        sha512 = "ETEklSGi5t0QMZuiXoA/Q6vcnxcLQP5vdugSpuAyi6SVGi2clPPp+xgEhuMaHC+zGgn31Kd235W35f7Hykkaww==";
       };
     }
     {
@@ -10261,6 +10269,14 @@
         name = "proxy_addr___proxy_addr_2.0.7.tgz";
         url = "https://registry.yarnpkg.com/proxy-addr/-/proxy-addr-2.0.7.tgz";
         sha512 = "llQsMLSUDUPT44jdrU/O37qlnifitDP+ZwrmmZcoSKyLKvtZxpyV0n2/bD/N4tBAAZ/gJEdZU7KMraoK1+XYAg==";
+      };
+    }
+    {
+      name = "proxy_from_env___proxy_from_env_1.1.0.tgz";
+      path = fetchurl {
+        name = "proxy_from_env___proxy_from_env_1.1.0.tgz";
+        url = "https://registry.yarnpkg.com/proxy-from-env/-/proxy-from-env-1.1.0.tgz";
+        sha512 = "D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg==";
       };
     }
     {
