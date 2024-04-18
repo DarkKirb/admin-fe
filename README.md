@@ -39,7 +39,7 @@ npm install -g yarn
 yarn
 
 # run AdminFE locally
-yarn dev
+NODE_OPTIONS=--openssl-legacy-provider yarn dev
 ```
 
 ### Build
@@ -52,7 +52,7 @@ npm install -g yarn
 yarn
 
 # compile everything for production
-yarn build:prod
+NODE_OPTIONS=--openssl-legacy-provider yarn build:prod
 ```
 
 This will build admin-fe into `dist` folder, which you will need to upload to your server and/or point your webserver of choice to.
