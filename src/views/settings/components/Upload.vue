@@ -23,6 +23,10 @@
     <el-form :model="uploadAnonymizeFilenameData" :label-position="labelPosition" :label-width="labelWidth">
       <setting :setting-group="uploadAnonymizeFilename" :data="uploadAnonymizeFilenameData"/>
     </el-form>
+    <el-divider v-if="uploadAnonymizeFilename" class="divider thick-line"/>
+    <el-form :model="uploadExiftoolStripMetadataData" :label-position="labelPosition" :label-width="labelWidth">
+      <setting :setting-group="uploadExiftoolStripMetadata" :data="uploadExiftoolStripMetadataData"/>
+    </el-form>
     <div class="submit-button-container">
       <el-button class="submit-button" type="primary" @click="onSubmit">{{ $t('settings.submit') }}</el-button>
     </div>
@@ -112,6 +116,12 @@ export default {
     },
     uploadAnonymizeFilenameData() {
       return _.get(this.settings.settings, [':pleroma', 'Pleroma.Upload.Filter.AnonymizeFilename']) || {}
+    },
+    uploadExiftoolStripMetadata() {
+      return this.settings.description.find(setting => setting.key === 'Pleroma.Upload.Filter.Exiftool.StripMetadata')
+    },
+    uploadExiftoolStripMetadataData() {
+      return _.get(this.settings.settings, [':pleroma', 'Pleroma.Upload.Filter.Exiftool.StripMetadata']) || {}
     }
   },
   mounted() {
