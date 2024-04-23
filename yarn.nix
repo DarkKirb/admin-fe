@@ -5296,11 +5296,11 @@
       };
     }
     {
-      name = "express___express_4.19.1.tgz";
+      name = "express___express_4.19.2.tgz";
       path = fetchurl {
-        name = "express___express_4.19.1.tgz";
-        url = "https://registry.yarnpkg.com/express/-/express-4.19.1.tgz";
-        sha512 = "K4w1/Bp7y8iSiVObmCrtq8Cs79XjJc/RU2YYkZQ7wpUu5ZyZ7MtPHkqoMz4pf+mgXfNvo2qft8D9OnrH2ABk9w==";
+        name = "express___express_4.19.2.tgz";
+        url = "https://registry.yarnpkg.com/express/-/express-4.19.2.tgz";
+        sha512 = "5T6nhjsT+EOMzuck8JjBHARTHfMht0POzlA60WV2pMD3gyXw2LZnZ+ueGdNxG+0calOJcWKbpFcuzLZ91YWq9Q==";
       };
     }
     {
