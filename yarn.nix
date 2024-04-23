@@ -11160,11 +11160,11 @@
       };
     }
     {
-      name = "screenfull___screenfull_4.0.0.tgz";
+      name = "screenfull___screenfull_6.0.2.tgz";
       path = fetchurl {
-        name = "screenfull___screenfull_4.0.0.tgz";
-        url = "https://registry.yarnpkg.com/screenfull/-/screenfull-4.0.0.tgz";
-        sha512 = "b5e07aVR219hkfKqKsBpUqGrR4JCB8UeHT3RiocIf/fXE9TMSkadO5H83r7XYSV05w2uRF9gWvZYiLgOHS6O5g==";
+        name = "screenfull___screenfull_6.0.2.tgz";
+        url = "https://registry.yarnpkg.com/screenfull/-/screenfull-6.0.2.tgz";
+        sha512 = "AQdy8s4WhNvUZ6P8F6PB21tSPIYKniic+Ogx0AacBMjKP1GUHN2E9URxQHtCusiwxudnCKkdy4GrHXPPJSkCCw==";
       };
     }
     {
