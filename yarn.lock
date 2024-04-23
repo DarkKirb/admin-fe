@@ -10815,10 +10815,10 @@ schema-utils@^4.0.0, schema-utils@^4.2.0:
     ajv-formats "^2.1.1"
     ajv-keywords "^5.1.0"
 
-screenfull@4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/screenfull/-/screenfull-4.0.0.tgz#86f3c26a2e516c8143884d8af16d07f0cb653394"
-  integrity sha512-b5e07aVR219hkfKqKsBpUqGrR4JCB8UeHT3RiocIf/fXE9TMSkadO5H83r7XYSV05w2uRF9gWvZYiLgOHS6O5g==
+screenfull@6.0.2:
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/screenfull/-/screenfull-6.0.2.tgz#3dbe4b8c4f8f49fb8e33caa8f69d0bca730ab238"
+  integrity sha512-AQdy8s4WhNvUZ6P8F6PB21tSPIYKniic+Ogx0AacBMjKP1GUHN2E9URxQHtCusiwxudnCKkdy4GrHXPPJSkCCw==
 
 script-ext-html-webpack-plugin@2.0.1:
   version "2.0.1"
