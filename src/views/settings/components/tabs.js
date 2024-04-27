@@ -66,7 +66,7 @@ export const tabs = description => {
     },
     'upload': {
       label: 'settings.upload',
-      settings: ['Pleroma.Upload.Filter.AnonymizeFilename', 'Pleroma.Upload.Filter.Mogrify', 'Pleroma.Uploaders.S3', 'Pleroma.Uploaders.Local', 'Pleroma.Upload', ':s3']
+      settings: ['Pleroma.Upload.Filter.AnonymizeFilename', 'Pleroma.Upload.Filter.Exiftool.StripMetadata', 'Pleroma.Upload.Filter.Mogrify', 'Pleroma.Uploaders.S3', 'Pleroma.Uploaders.Local', 'Pleroma.Upload', ':s3']
     },
     'search': {
       label: 'settings.search',
