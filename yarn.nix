@@ -5824,11 +5824,11 @@
       };
     }
     {
-      name = "fuse.js___fuse.js_3.4.2.tgz";
+      name = "fuse.js___fuse.js_7.0.0.tgz";
       path = fetchurl {
-        name = "fuse.js___fuse.js_3.4.2.tgz";
-        url = "https://registry.yarnpkg.com/fuse.js/-/fuse.js-3.4.2.tgz";
-        sha512 = "WVbrm+cAxPtyMqdtL7cYhR7aZJPhtOfjNClPya8GKMVukKDYs7pEnPINeRVX1C9WmWgU8MdYGYbUPAP2AJXdoQ==";
+        name = "fuse.js___fuse.js_7.0.0.tgz";
+        url = "https://registry.yarnpkg.com/fuse.js/-/fuse.js-7.0.0.tgz";
+        sha512 = "14F4hBIxqKvD4Zz/XjDc3y94mNZN6pRv3U13Udo0lNLCWRBUsrMv2xwcF/y/Z5sV6+FQW+/ow68cHpm4sunt8Q==";
       };
     }
     {
