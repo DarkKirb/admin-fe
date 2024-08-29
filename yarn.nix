@@ -4720,11 +4720,11 @@
       };
     }
     {
-      name = "echarts___echarts_4.1.0.tgz";
+      name = "echarts___echarts_5.5.1.tgz";
       path = fetchurl {
-        name = "echarts___echarts_4.1.0.tgz";
-        url = "https://registry.yarnpkg.com/echarts/-/echarts-4.1.0.tgz";
-        sha512 = "gP1e1fNnAj9KJpTDLXV21brklbfJlqeINmpQDJCDta9TX3cPoqyQOiDVcEPzbOVHqgBRgTOwNxC5iGwJ89014A==";
+        name = "echarts___echarts_5.5.1.tgz";
+        url = "https://registry.yarnpkg.com/echarts/-/echarts-5.5.1.tgz";
+        sha512 = "Fce8upazaAXUVUVsjgV6mBnGuqgO+JNDlcgF79Dksy4+wgGpQB2lmYoO4TSweFg/mZITdpGHomw/cNBJZj1icA==";
       };
     }
     {
@@ -12664,6 +12664,14 @@
       };
     }
     {
+      name = "tslib___tslib_2.3.0.tgz";
+      path = fetchurl {
+        name = "tslib___tslib_2.3.0.tgz";
+        url = "https://registry.yarnpkg.com/tslib/-/tslib-2.3.0.tgz";
+        sha512 = "N82ooyxVNm6h1riLCoyS9e3fuJ3AMG2zIZs2Gd1ATcSFjSA23Q0fzjjZeh0jbJvWVDZ0cJT8yaNNaaXHzueNjg==";
+      };
+    }
+    {
       name = "tslib___tslib_2.6.2.tgz";
       path = fetchurl {
         name = "tslib___tslib_2.6.2.tgz";
@@ -13824,11 +13832,11 @@
       };
     }
     {
-      name = "zrender___zrender_4.0.4.tgz";
+      name = "zrender___zrender_5.6.0.tgz";
       path = fetchurl {
-        name = "zrender___zrender_4.0.4.tgz";
-        url = "https://registry.yarnpkg.com/zrender/-/zrender-4.0.4.tgz";
-        sha512 = "03Vd/BDl/cPXp8E61f5+Xbgr/a4vDyFA+uUtUc1s+5KgcPbyY2m+78R/9LQwkR6QwFYHG8qk25Q8ESGs/qpkZw==";
+        name = "zrender___zrender_5.6.0.tgz";
+        url = "https://registry.yarnpkg.com/zrender/-/zrender-5.6.0.tgz";
+        sha512 = "uzgraf4njmmHAbEUxMJ8Oxg+P3fT04O+9p7gY+wJRVxo8Ge+KmYv0WJev945EH4wFuc4OY2NLXz46FZrWS9xJg==";
       };
     }
   ];
