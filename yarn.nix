@@ -9688,11 +9688,11 @@
       };
     }
     {
-      name = "path_to_regexp___path_to_regexp_2.4.0.tgz";
+      name = "path_to_regexp___path_to_regexp_8.0.0.tgz";
       path = fetchurl {
-        name = "path_to_regexp___path_to_regexp_2.4.0.tgz";
-        url = "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-2.4.0.tgz";
-        sha512 = "G6zHoVqC6GGTQkZwF4lkuEyMbVOjoBKAEybQUypI1WTkqinCOrq2x6U2+phkJ1XsEMTy4LjtwPI7HW+NVrRR2w==";
+        name = "path_to_regexp___path_to_regexp_8.0.0.tgz";
+        url = "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-8.0.0.tgz";
+        sha512 = "GAWaqWlTjYK/7SVpIUA6CTxmcg65SP30sbjdCvyYReosRkk7Z/LyHWwkK3Vu0FcIi0FNTADUs4eh1AsU5s10cg==";
       };
     }
     {
