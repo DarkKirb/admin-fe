@@ -4624,11 +4624,11 @@
       };
     }
     {
-      name = "dompurify___dompurify_2.4.8.tgz";
+      name = "dompurify___dompurify_2.5.6.tgz";
       path = fetchurl {
-        name = "dompurify___dompurify_2.4.8.tgz";
-        url = "https://registry.yarnpkg.com/dompurify/-/dompurify-2.4.8.tgz";
-        sha512 = "O90eQdAQOiLZoE9pEgPz3JfqXh5yrhJHv0/LzOv3wWFLTWUqAKaISD1aWASQTLshLM+jziuSerbtUESKK8Jibw==";
+        name = "dompurify___dompurify_2.5.6.tgz";
+        url = "https://registry.yarnpkg.com/dompurify/-/dompurify-2.5.6.tgz";
+        sha512 = "zUTaUBO8pY4+iJMPE1B9XlO2tXVYIcEA4SNGtvDELzTSCQO7RzH+j7S180BmhmJId78lqGU2z19vgVx2Sxs/PQ==";
       };
     }
     {
